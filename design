@@ -1,0 +1,17 @@
+1 thread tcp , socketserver　模块实现网络并发 数据库查询
+2 database:dictionary_query
+  tables: users   dictionary   users_query_log
+  
+  users: id primary key
+         name union
+         password string
+
+  dicionary: id 
+             word 
+             explain
+
+  users_query_log: id 
+                   user_name 
+                   word 
+                   time  
+         
