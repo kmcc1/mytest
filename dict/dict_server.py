@@ -161,7 +161,7 @@ def do_hist(c, db, data):
         c.send(msg.encode())
     time.sleep(0.1)
     c.send(b"##")
-    
+
 
 if __name__ == '__main__':
     main()

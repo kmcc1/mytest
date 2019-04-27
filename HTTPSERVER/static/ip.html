@@ -1,0 +1,3344 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://baike.baidu.com/item/IP/224599?fr=aladdin -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./IP（网络之间互连的协议）_百度百科_files/element.min.js.下载"></script><script async="" src="./IP（网络之间互连的协议）_百度百科_files/monkey.min.js.下载"></script><script async="" src="./IP（网络之间互连的协议）_百度百科_files/dp.min.js.下载"></script><script type="text/javascript" async="" src="./IP（网络之间互连的协议）_百度百科_files/auto_dup"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="referrer" content="always">
+<meta name="description" content="互联网协议地址（英语：Internet Protocol Address，又译为网际协议地址），缩写为IP地址（英语：IP Address），是分配给用户上网使用的网际协议（英语：Internet Protocol, IP）的设备的数字标签。常见的IP地址分为IPv4与IPv6两大类，但是也有其他不常用的小分类。...">
+<title>IP（网络之间互连的协议）_百度百科</title>
+<link rel="shortcut icon" href="https://baike.baidu.com/favicon.ico" type="image/x-icon">
+<link rel="icon" sizes="any" mask="" href="https://www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="IP 网络之间互连的协议 网际协议 IP基本原理 IP分片和重组 IP地址 IPIP协议 IP分类 IPV6简介 IP代理IP IPIP认证 IP寄存器 IPIP告罄 IPSOC中">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+<script src="./IP（网络之间互连的协议）_百度百科_files/hm.js.下载"></script><script async="" src="./IP（网络之间互连的协议）_百度百科_files/alog.min.js.下载"></script><script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_1',
+    speed: {
+      sample: '0.008'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '0.004'
+    },
+    feature: {
+      sample: '0.004'
+    },
+    csp: {
+      sample: '0.008',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+  void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+<meta itemprop="dateUpdate" content="2019-04-09 09:27:12">
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/wiki-lemma_a152d97.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/wiki-common-base_66a9374.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/userbar-n_2890903.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/larkplayer_981c735.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/webuploader_08d9db4.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/wiki-lemma-module_30d5b43.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/pageBackground_d077e01.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/announcement_cba33f4.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/label_ca156c6.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/sideShare_9c411cd.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/pageMask_ff9a193.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/mainContent_98e3702.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/lemmaRelation_ac86a59.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/professional_054b270.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/zhixin_3b0d7a5.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/sideAuth_c13d91a.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/toolButtons-n_8b4919b.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/userInfo-n_7e90184.css"><link rel="stylesheet" type="text/css" href="./IP（网络之间互连的协议）_百度百科_files/searchHeader-n_f9a6e5b.css">    
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script><script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script><script type="text/javascript" src="./IP（网络之间互连的协议）_百度百科_files/lemmaReferenceTip_3a154ae.js.下载"></script><link rel="stylesheet" href="./IP（网络之间互连的协议）_百度百科_files/share_style0_16.css"><script src="./IP（网络之间互连的协议）_百度百科_files/qc.php" type="text/javascript" charset="utf-8"></script></head>
+
+
+
+
+<body class="wiki-lemma normal"><div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id="BAIDU_DUP_fp_iframe" src="./IP（网络之间互连的协议）_百度百科_files/o.html" style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div>
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar wgt-userbar-n" id="j-wgt-userbar"><li>
+<a href="http://www.baidu.com/" nslog="normal" nslog-type="10080109">百度首页</a>
+</li>
+<li>
+<a data-action="login" href="javascript:;" nslog="normal" nslog-type="10080110">登录</a>
+</li>
+<li>
+<a href="https://passport.baidu.com/v2/?reg&amp;regType=1&amp;tpl=wk" nslog="normal" nslog-type="10080111">注册</a><a>
+</a></li></ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&amp;fr=bks0000&amp;wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&amp;cl=2&amp;rn=20&amp;ct=1&amp;fr=bks0000&amp;ie=utf-8&amp;word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&amp;fr=bks0000&amp;kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&amp;&amp;rn=10&amp;lm=0&amp;fr=bks0000&amp;word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&amp;ct=134217728&amp;ie=utf-8&amp;rn=&amp;lm=-1&amp;pn=30&amp;fr=bks0000&amp;key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;nc=1&amp;ie=utf-8&amp;word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://v.baidu.com/v?ct=301989888&amp;rn=20&amp;pn=0&amp;db=0&amp;s=22&amp;ie=utf-8&amp;fr=bks0000&amp;word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&amp;fr=bks0000&amp;word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&amp;od=0&amp;ie=utf-8&amp;fr=bks0000&amp;word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="https://baike.baidu.com/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="https://baike.baidu.com/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="IP"><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="https://baike.baidu.com/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="https://baike.baidu.com/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden">
+<input name="pn" type="hidden" value="0">
+<input name="rn" type="hidden" value="0">
+<input name="enc" type="hidden" value="utf8">
+</form>
+<ul id="suggestion" class="suggestion" style="display: none;">
+<div class="sug"></div>
+<li class="extra">
+<span id="clear" style="margin-right:8px;">清除历史记录</span><span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap" style="display: block;">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="https://baike.baidu.com/common/declaration">详情&gt;&gt;</a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+<a target="_blank" class="topA" nslog-type="10002202" nslog-params="{&quot;adId&quot;:&quot;7075&quot;, &quot;adTitle&quot;: &quot;活动-wmj4.14-15&quot;, &quot;adPos&quot;: 3}" href="https://baike.baidu.com/task/204981" title="" style="background-image:url(https://baikebcs.bdimg.com/adpic/wengmingjuan.png);"></a></div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="https://baike.baidu.com/">首页</a></dt>
+<dd>
+<div><a href="https://baike.baidu.com/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="https://baike.baidu.com/vbaike/" target="_blank">百科冷知识</a></div>
+<div><a href="https://baike.baidu.com/vbaike#gallary" target="_blank">图解百科</a></div>
+</dd>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="https://baike.baidu.com/art" target="_blank">艺术</a></div>
+<div><a href="https://baike.baidu.com/science" target="_blank">科学</a></div>
+<div><a href="https://baike.baidu.com/ziran" target="_blank">自然</a></div>
+<div><a href="https://baike.baidu.com/wenhua" target="_blank">文化</a></div>
+<div><a href="https://baike.baidu.com/dili" target="_blank">地理</a></div>
+<div><a href="https://baike.baidu.com/shenghuo" target="_blank">生活</a></div>
+<div><a href="https://baike.baidu.com/shehui" target="_blank">社会</a></div>
+<div><a href="https://baike.baidu.com/renwu" target="_blank">人物</a></div>
+<div><a href="https://baike.baidu.com/jingji" target="_blank">经济</a></div>
+<div><a href="https://baike.baidu.com/tiyu" target="_blank">体育</a></div>
+<div><a href="https://baike.baidu.com/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="second-know ">
+<dt><a>秒懂百科</a></dt>
+<dd><div><a href="https://child.baidu.com/" target="_blank">懂啦</a></div>
+<div><a href="https://baike.baidu.com/item/%E7%A7%92%E6%87%82%E6%98%9F%E8%AF%BE%E5%A0%82" target="_blank">秒懂星课堂</a></div>
+<div><a href="https://baike.baidu.com/item/%E7%A7%92%E6%87%82%E5%A4%A7%E5%B8%88%E8%AF%B4" target="_blank">秒懂大师说</a></div>
+<div><a href="https://baike.baidu.com/item/%E7%A7%92%E6%87%82%E7%9C%8B%E7%93%A6%E7%89%B9" target="_blank">秒懂看瓦特</a></div>
+<div><a href="https://baike.baidu.com/item/%E7%A7%92%E6%87%82%E4%BA%94%E5%8D%83%E5%B9%B4" target="_blank">秒懂五千年</a></div>
+<div><a href="https://baike.baidu.com/item/%E7%A7%92%E6%87%82%E5%85%A8%E8%A7%86%E7%95%8C" target="_blank">秒懂全视界</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd><div><a href="https://baike.baidu.com/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="https://baike.baidu.com/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+<div><a href="https://shushuo.baidu.com/" target="_blank">百度数说</a></div>
+<div><a href="https://baike.baidu.com/city/" target="_blank">城市百科</a></div>
+<div><a href="https://baike.baidu.com/wikicategory/view?categoryName=%E6%81%90%E9%BE%99%E5%A4%A7%E5%85%A8" target="_blank">恐龙百科</a></div>
+<div><a href="https://baike.baidu.com/wikicategory/view?categoryName=%E5%A4%9A%E8%82%89%E6%A4%8D%E7%89%A9" target="_blank">多肉百科</a></div>
+</dd>
+</dl>
+<dl class="user ">
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="https://baike.baidu.com/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="https://baike.baidu.com/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="https://baike.baidu.com/task/" target="_blank">百科任务</a></div>
+<div><a href="https://baike.baidu.com/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation ">
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="https://baike.baidu.com/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="https://baike.baidu.com/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="https://baike.baidu.com/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="https://baike.baidu.com/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+<div class="page-background" style="display:block;position:relative;width:100%;height:480px;background:#f5f5f5 url(&#39;https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/pageBackground/img/noSecondKnow_df53ec5.png&#39;) no-repeat center 0px;">
+<div class="bgMask"></div>
+</div>
+<div class="after-page-background" style="position:relative;margin-top:-460px;"></div>
+<div class="polysemant-list polysemant-list-normal">
+<div class="polysemantList-header">
+<div class="polysemantList-header-title">
+<b class="polysemant-list-lemma-title">IP</b>是一个<a href="https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E5%A4%9A%E4%B9%89%E8%AF%8D" target="_blank">多义词</a>，请在下列<a href="https://baike.baidu.com/item/%E4%B9%89%E9%A1%B9" target="_blank">义项</a>上选择浏览（<a href="https://baike.baidu.com/item/IP?force=1" target="_blank">共5个义项</a>）<span class="polysemant-separator"></span>
+<a class="polysemant-button polysemant-button--add J-polysemant-button--add" href="javascript:;" target="_blank" data-href="/createsub/IP">
+<span class="polysemant-button__text J-polysemant-button__text">添加义项</span>
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add polysemant-button__icon J-polysemant-button__icon"></em>
+</a>
+</div>
+</div>
+<ul class="polysemantList-wrapper cmn-clearfix">
+<li class="item">▪<span class="selected">网络之间互连的协议</span></li>
+<li class="item">▪<a title="智能外设" href="https://baike.baidu.com/item/IP/20610892#viewPageContent">智能外设</a></li>
+<li class="item">▪<a title="知识产权" href="https://baike.baidu.com/item/IP/15874877#viewPageContent">知识产权</a></li>
+<li class="item">▪<a title="大气监测指标" href="https://baike.baidu.com/item/IP/15952238#viewPageContent">大气监测指标</a></li>
+<li class="item">▪<a title="中断优先级寄存器IP" href="https://baike.baidu.com/item/IP/16747147#viewPageContent">中断优先级寄存器IP</a></li>
+</ul>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<a class="posterFlag expert-icon " href="javascript:;" title="权威专家认证词条"></a>
+<div class="top-tool">
+<a href="https://baike.baidu.com/divideload/IP" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="https://baike.baidu.com/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">4860</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">722</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone" href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat" href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq" href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1>IP</h1>
+<h2>（网络之间互连的协议）</h2>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link" style="display: inline-block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" nslog-type="10003105" target="_blank" href="javascript:;" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+<a href="https://baike.baidu.com/planet/talk?lemmaId=224599" target="_blank" class="lemma-discussion cmn-btn-hover-blue cmn-btn-28 j-discussion-link" nslog-type="90000102"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_discussion-solid"></em>讨论<span class="num">999</span></a>
+</dd>
+</dl><div class="authorityListPrompt">
+<div class="main-content-zj">
+本词条由<a href="https://baike.baidu.com/science" target="_blank" class="nslog:7175">“科普中国”科学百科词条编写与应用工作项目</a>
+审核
+。</div>
+</div>
+<div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para"><b>互联网协议地址</b>（英语：Internet Protocol Address，又译为<b>网际协议地址</b>），缩写为<b>IP地址</b>（英语：IP Address），是分配给用户上网使用的<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E9%99%85%E5%8D%8F%E8%AE%AE">网际协议</a>（英语：Internet Protocol, IP）的设备的数字标签。常见的IP地址分为<a target="_blank" href="https://baike.baidu.com/item/IPv4">IPv4</a>与<a target="_blank" href="https://baike.baidu.com/item/IPv6">IPv6</a>两大类，但是也有其他不常用的小分类。</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">中文名</dt>
+<dd class="basicInfo-item value">
+<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%B9%8B%E9%97%B4%E4%BA%92%E8%BF%9E%E7%9A%84%E5%8D%8F%E8%AE%AE/10031368" data-lemmaid="10031368">网络之间互连的协议</a>
+</dd>
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+Internet Protocol
+</dd>
+<dt class="basicInfo-item name">中文缩写</dt>
+<dd class="basicInfo-item value">
+网络协议
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name"><a target="_blank" href="https://baike.baidu.com/item/%E5%A4%96%E8%AF%AD">外语</a>缩写</dt>
+<dd class="basicInfo-item value">
+IP
+</dd>
+<dt class="basicInfo-item name">类&nbsp;&nbsp;&nbsp;&nbsp;型</dt>
+<dd class="basicInfo-item value">
+概念
+</dd>
+<dt class="basicInfo-item name">类&nbsp;&nbsp;&nbsp;&nbsp;别</dt>
+<dd class="basicInfo-item value">
+网络术语
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-4">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#1">基本原理</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#1_1">网络互联</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#1_2">数据包</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#2">分片和重组</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#2_1">分片</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#2_2">IP地址</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3">地址</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_1">公用地址</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_2">基本格式</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_3">地址分配</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_4">IP查询</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#4">IP协议</a></span>
+</li>
+<li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5">分类</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_1">网络号</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_2">主机号</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_3">A类地址</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_4">B类地址</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_5">C类地址</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_6">D类地址</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_7">E类地址</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_8">实体IP</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_9">虚拟IP</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_10">掩码</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_11">特殊地址</a></span>
+</li>
+<li class="level1">
+<span class="index">6</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#6">V6简介</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#6_1">综述</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#6_2">特点</a></span>
+</li>
+<li class="level1">
+<span class="index">7</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#7">代理IP</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">8</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#8">IP认证</a></span>
+</li>
+<li class="level1">
+<span class="index">9</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#9">寄存器</a></span>
+</li>
+<li class="level1">
+<span class="index">10</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#10">IP告罄</a></span>
+</li>
+<li class="level1">
+<span class="index">11</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11">SOC中</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11_1">IP定义</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11_2">IP分类</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11_3">IP来源</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_1" class="lemma-anchor "></a>
+<a name="基本原理" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>基本原理</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="1_1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_1_1" class="lemma-anchor "></a>
+<a name="网络互联" class="lemma-anchor "></a>
+<a name="1-1" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>网络互联</h3>
+</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/9304c88844d2ad87a5c27225?fr=lemma&amp;ct=single" target="_blank" title="NNT流量" style="width:220px;height:123px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/241f95cad1c8a78659fa552d6709c93d71cf50c4.jpg" alt="NNT流量" style="width:220px;height:123px;">
+</a>
+<span class="description">
+NNT流量
+</span>
+</div>网协是怎样实现的？<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C">网络</a>互连<a target="_blank" href="https://baike.baidu.com/item/%E8%AE%BE%E5%A4%87">设备</a>，如<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A5%E5%A4%AA%E7%BD%91">以太网</a>、<a target="_blank" href="https://baike.baidu.com/item/%E5%88%86%E7%BB%84%E4%BA%A4%E6%8D%A2%E7%BD%91">分组交换网</a>等，它们相互之间不能<a target="_blank" href="https://baike.baidu.com/item/%E4%BA%92%E9%80%9A">互通</a>，不能互通的主要原因是因为它们所传送数据的<a target="_blank" href="https://baike.baidu.com/item/%E5%9F%BA%E6%9C%AC%E5%8D%95%E5%85%83">基本单元</a>（技术上称之为“<a target="_blank" href="https://baike.baidu.com/item/%E5%B8%A7">帧</a>”）的格式不同。<a target="_blank" href="https://baike.baidu.com/item/IP%E5%8D%8F%E8%AE%AE">IP协议</a>实际上是一套由软件、程序组成的协议软件，它把各种不同“<a target="_blank" href="https://baike.baidu.com/item/%E5%B8%A7">帧</a>”统一转换成“网协<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>”格式，这种转换是<a target="_blank" href="https://baike.baidu.com/item/%E5%9B%A0%E7%89%B9%E7%BD%91">因特网</a>的一个最重要的特点，使所有<a target="_blank" href="https://baike.baidu.com/item/%E5%90%84%E7%A7%8D">各种</a><a target="_blank" href="https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA">计算机</a>都能在<a target="_blank" href="https://baike.baidu.com/item/%E5%9B%A0%E7%89%B9%E7%BD%91">因特网</a>上实现互通，即具有“<a target="_blank" href="https://baike.baidu.com/item/%E5%BC%80%E6%94%BE%E6%80%A7">开放性</a>”的特点。</div><div class="anchor-list">
+<a name="1_2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_1_2" class="lemma-anchor "></a>
+<a name="数据包" class="lemma-anchor "></a>
+<a name="1-2" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>数据包</h3>
+</div>
+<div class="para" label-module="para">那么，“<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>（data packet）”是什么？它又有什么特点呢？<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>也是<a target="_blank" href="https://baike.baidu.com/item/%E5%88%86%E7%BB%84%E4%BA%A4%E6%8D%A2">分组交换</a>的一种形式，就是把所传送的数据分段打成 “包”，再传送出去。但是，与传统的“连接型”<a target="_blank" href="https://baike.baidu.com/item/%E5%88%86%E7%BB%84%E4%BA%A4%E6%8D%A2">分组交换</a>不同，它属于“<a target="_blank" href="https://baike.baidu.com/item/%E6%97%A0%E8%BF%9E%E6%8E%A5">无连接</a>型”，是把打成的每个“包”（分组）都作为一个“独立的<a target="_blank" href="https://baike.baidu.com/item/%E6%8A%A5%E6%96%87">报文</a>”传送出去，所以叫做“<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>”。这样，在开始通信之前就不需要先连接好一条电路，各个<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>不一定都通过同一条路径传输，所以叫做“<a target="_blank" href="https://baike.baidu.com/item/%E6%97%A0%E8%BF%9E%E6%8E%A5">无连接</a>型”。这一特点非常重要，它大大提高了网络的坚固性和安全性。<div class="lemma-picture text-pic layout-right" style="width:250px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/734f12f38351a3940b46e058?fr=lemma&amp;ct=single" target="_blank" title="TCP/IP数据包格式" style="width:250px;height:107px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/a8ec8a13632762d0a39849d0a0ec08fa513dc63f.jpg" alt="TCP/IP数据包格式" style="width:250px;height:107px;">
+</a>
+<span class="description">
+TCP/IP数据包格式
+</span>
+</div>每个<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>都有报头和<a target="_blank" href="https://baike.baidu.com/item/%E6%8A%A5%E6%96%87">报文</a>这两个部分，报头中有目的地址等必要内容，使每个数据包不经过同样的路径都能准确地到达目的地。在目的地重新组合还原成原来发送的数据。这就要IP具有分组打包和集合组装的功能。</div>
+<div class="para" label-module="para">在传送过程中，<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>的长度为30000字节(Byte)(1字节=8二进制位)。</div>
+<div class="para" label-module="para">另外，特别注意的是，ip数据包指一个完整的ip信息，即ip数据包格式中各项的取值范围或规定，如版本号可以是4或者6,ip包头长度可以是20字节-60字节，总长度不超过65535字节，封装的上层协议可以是tcp和udp等。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_2" class="lemma-anchor "></a>
+<a name="分片和重组" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>分片和重组</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="2_1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_2_1" class="lemma-anchor "></a>
+<a name="分片" class="lemma-anchor "></a>
+<a name="2-1" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>分片</h3>
+</div>
+<div class="para" label-module="para">分片后的IP数据包，只有到达目的地才能重新组装。重新组装由目的地的IP层来完成，其目的是使分片和重新组装过程对传输层（<a target="_blank" href="https://baike.baidu.com/item/TCP/33012" data-lemmaid="33012">TCP</a>和<a target="_blank" href="https://baike.baidu.com/item/UDP">UDP</a>）是透明的。已经分片过的数据包有可能会再次进行分片（不止一次）。</div>
+<div class="para" label-module="para">IP分片原因：<a target="_blank" href="https://baike.baidu.com/item/%E9%93%BE%E8%B7%AF%E5%B1%82">链路层</a>具有<a target="_blank" href="https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E4%BC%A0%E8%BE%93%E5%8D%95%E5%85%83">最大传输单元</a>MTU这个特性，它限制了<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%B8%A7">数据帧</a>的最大长度，不同的<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E7%B1%BB%E5%9E%8B">网络类型</a>都有一个上限值。<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A5%E5%A4%AA%E7%BD%91">以太网</a>的MTU是1500，你可以用 netstat -i 命令查看这个值。如果IP层有<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>要传，而且<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%8C%85">数据包</a>的长度超过了MTU，那么IP层就要对数据包进行分片（fragmentation）操作，使每一片的长度都小于或等于MTU。我们假设要传输一个UDP数据包，<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A5%E5%A4%AA%E7%BD%91">以太网</a>的MTU为1500字节，一般IP首部为20字节，UDP首部为8字节，数据的净荷（payload）部分预留是1500-20-8=1472字节。如果数据部分大于1472字节，就会出现分片现象。</div><div class="anchor-list">
+<a name="2_2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_2_2" class="lemma-anchor "></a>
+<a name="IP地址" class="lemma-anchor "></a>
+<a name="2-2" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>IP地址</h3>
+</div>
+<div class="para" label-module="para"><a target="_blank" href="https://baike.baidu.com/item/IP%E5%8D%8F%E8%AE%AE">IP协议</a>中还有一个非常重要的<a target="_blank" href="https://baike.baidu.com/item/%E5%86%85%E5%AE%B9">内容</a>，那就是给<a target="_blank" href="https://baike.baidu.com/item/%E5%9B%A0%E7%89%B9%E7%BD%91">因特网</a>上的每台<a target="_blank" href="https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA">计算机</a>和其它设备都规定了一种地址，叫做“IP 地址”。由于有这种地址，才保证了用户在连网的计算机上操作时，能够高效而且方便地从千千万万台计算机中选出自己所需的对象来。如今<a target="_blank" href="https://baike.baidu.com/item/%E7%94%B5%E4%BF%A1">电信</a>网正在与 IP网走向融合，以IP为基础的新技术是热门的技术，如用IP网络传送话音的技术（即<a target="_blank" href="https://baike.baidu.com/item/VoIP">VoIP</a>）就很热门，其它如IP over<a target="_blank" href="https://baike.baidu.com/item/ATM">ATM</a>、IPover<a target="_blank" href="https://baike.baidu.com/item/SDH">SDH</a>、IP over WDM等等，都是IP技术的研究重点。</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title"></a>
+<a name="sub15816170_3" class="lemma-anchor "></a>
+<a name="地址" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>地址</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="3_1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_3_1" class="lemma-anchor "></a>
+<a name="公用地址" class="lemma-anchor "></a>
+<a name="3-1" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>公用地址</h3>
+</div>
+<div class="para" label-module="para">所谓IP地址就是给每个连接在互联网上的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>分配的一个32位地址。</div>
+<div class="para" label-module="para">IP地址就好像电话号码（地址码）：有了某人的电话号码，你就能与他通话了。同样，有了某台<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>的IP地址，你就能与这台主机通信了。</div>
+<div class="para" label-module="para">按照<a target="_blank" href="https://baike.baidu.com/item/TCP">TCP</a>/IP（Transport Control Protocol/Internet Protocol，传输控制协议/<a target="_blank" href="https://baike.baidu.com/item/Internet%E5%8D%8F%E8%AE%AE">Internet协议</a>）协议规定，IP地址用<a target="_blank" href="https://baike.baidu.com/item/%E4%BA%8C%E8%BF%9B%E5%88%B6">二进制</a>来表示，每个IP地址长32<a target="_blank" href="https://baike.baidu.com/item/bit">bit</a>，比特换算成字节，就是4个<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%97%E8%8A%82">字节</a>。例如一个采用<a target="_blank" href="https://baike.baidu.com/item/%E4%BA%8C%E8%BF%9B%E5%88%B6">二进制</a>形式的IP地址是一串很长的数字，人们处理起来也太费劲了。为了方便人们的使用，IP地址经常被写成<a target="_blank" href="https://baike.baidu.com/item/%E5%8D%81%E8%BF%9B%E5%88%B6">十进制</a>的形式，中间使用符号“.”分开不同的字节。于是，上面的IP地址可以表示为“10.0.0.1”。IP地址的这种表示法叫做“<a target="_blank" href="https://baike.baidu.com/item/%E7%82%B9%E5%88%86%E5%8D%81%E8%BF%9B%E5%88%B6">点分十进制</a>表示法”，这显然比1和0容易记忆得多。</div>
+<div class="para" label-module="para">有人会以为，一台计算机只能有一个IP地址，这种观点是错误的。我们可以指定一台计算机具有多个IP地址，因此在访问互联网时，不要以为一个IP地址就是一台计算机；另外，通过特定的技术，也可以使多台服务器共用一个IP地址，这些服务器在用户看起来就像一台<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>似的。<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/4075890af9e8fd4094ca6b23?fr=lemma&amp;ct=single" target="_blank" title="IPV4数据包头格式" style="width:220px;height:141px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/8cb1cb134954092314f28e119258d109b2de49c2.jpg" alt="IPV4数据包头格式" style="width:220px;height:141px;">
+</a>
+<span class="description">
+IPV4数据包头格式
+</span>
+</div>将IP地址分成了网络号和<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>号两部分，设计者就必须决定每部分包含多少位。网络号的<a target="_blank" href="https://baike.baidu.com/item/%E4%BD%8D%E6%95%B0">位数</a>直接决定了可以分配的网络数（计算方法2^网络号位数）；<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>号的位数则决定了网络中最大的主机数（计算方法2^主机号位数-2）。然而，由于整个互联网所包含的网络规模可能比较大，也可能比较小，设计者最后聪明的选择了一种灵活的方案：将IP地址空间划分成不同的类别，每一类具有不同的网络号位数和<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>号位数。</div>
+<div class="para" label-module="para">IP地址是IP网络中数据传输的依据，它标识了IP网络中的一个连接，一台<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>可以有多个IP地址。IP分组中的IP地址在<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%BC%A0%E8%BE%93">网络传输</a>中是保持不变的。</div><div class="anchor-list">
+<a name="3_2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_3_2" class="lemma-anchor "></a>
+<a name="基本格式" class="lemma-anchor "></a>
+<a name="3-2" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>基本格式</h3>
+</div>
+<div class="para" label-module="para">如今的IP网络使用32位<a target="_blank" href="https://baike.baidu.com/item/%E5%9C%B0%E5%9D%80">地址</a>，以点分<a target="_blank" href="https://baike.baidu.com/item/%E5%8D%81%E8%BF%9B%E5%88%B6">十进制</a>表示，如192.168.0.1。</div>
+<div class="para" label-module="para">地址格式为：IP地址=<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>+<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA%E5%9C%B0%E5%9D%80">主机地址</a>或 IP地址=<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>+<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%90%E7%BD%91">子网</a>地址+主机地址。</div>
+<div class="para" label-module="para"><a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>是<a target="_blank" href="https://baike.baidu.com/item/%E5%9B%A0%E7%89%B9%E7%BD%91">因特网</a>协会的ICANN（<b>the Internet Corporation for Assigned Names and Numbers</b>）分配的，下有负责北美地区的<a target="_blank" href="https://baike.baidu.com/item/InterNIC">InterNIC</a>、负责欧洲地区的RIPENIC和负责亚太地区的APNIC 目的是为了保证<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>的全球唯一性。<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA%E5%9C%B0%E5%9D%80">主机地址</a>是由各个网络的系统管理员分配。因此，<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>的唯一性与网络内<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA%E5%9C%B0%E5%9D%80">主机地址</a>的唯一性确保了IP地址的全球唯一性。</div><div class="anchor-list">
+<a name="3_3" class="lemma-anchor para-title"></a>
+<a name="sub15816170_3_3" class="lemma-anchor "></a>
+<a name="地址分配" class="lemma-anchor "></a>
+<a name="3-3" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>地址分配</h3>
+</div>
+<div class="para" label-module="para">根据用途和安全性级别的不同，IP地址还可以大致分为两类：公共地址和<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>。公共地址在<a target="_blank" href="https://baike.baidu.com/item/Internet">Internet</a>中使用，可以在<a target="_blank" href="https://baike.baidu.com/item/Internet">Internet</a>中随意访问。<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>只能在内部网络中使用，只有通过<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>才能与Internet通信。</div><div class="anchor-list">
+<a name="3_4" class="lemma-anchor para-title"></a>
+<a name="sub15816170_3_4" class="lemma-anchor "></a>
+<a name="IP查询" class="lemma-anchor "></a>
+<a name="3-4" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>IP查询</h3>
+</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/f15e2429873638a198250a00?fr=lemma&amp;ct=single" target="_blank" title="ipconfig详解" style="width:220px;height:129px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/7aec54e736d12f2e13fb430f4fc2d562843568e7.jpg" alt="ipconfig详解" style="width:220px;height:129px;">
+</a>
+<span class="description">
+ipconfig详解
+</span>
+</div><a target="_blank" href="https://baike.baidu.com/item/Windows%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F">Windows操作系统</a>下</div>
+<div class="para" label-module="para">开始---运行，输入<a target="_blank" href="https://baike.baidu.com/item/cmd">cmd</a>---在弹出的对话框里输入ipconfig /all （网协配置、参数变量为全部），然后回车出现列表.</div>
+<div class="para" label-module="para">其中有一项：ip <a target="_blank" href="https://baike.baidu.com/item/address">address</a>就是ip地址</div>
+<div class="para" label-module="para"><a target="_blank" href="https://baike.baidu.com/item/Linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F">Linux操作系统</a>下</div>
+<div class="para" label-module="para">运行ipconfig（网协配置）其中<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A5%E5%A4%AA%E7%BD%91">以太网</a>下面 inet地址即为IP地址</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title"></a>
+<a name="sub15816170_4" class="lemma-anchor "></a>
+<a name="IP协议" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>IP协议</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">1、Internet体系结构</div>
+<div class="para" label-module="para">一个<a target="_blank" href="https://baike.baidu.com/item/TCP%2FIP">TCP/IP</a>互联网提供了三组服务。最底层提供无连接的传送服务为其他层的服务提供了基础。第二层一个可靠的传送服务为应用层提供了一个高层平台。最高层是应用层服务。<br>　　2、IP协议： 这种不可靠的、无连接的传送机制称为Internet协议。</div>
+<div class="para" label-module="para">3、IP协议三个定义：<br>　　（1）IP定义了在TCP/IP互联网上数据传送的基本单元和数据格式。<br>　　（2）IP软件完成路由选择功能，选择数据传送的路径。<br>　　（3）IP包含了一组不可靠分组传送的规则，指明了分组处理、差错信息发生以及分组的规则。<br>　　4、IP数据包：联网的基本传送单元是IP数据包，包括数据包头和数据区部分。<br>　　5、IP数据包封装：物理网络将包括数据包包头的整个数据包作为数据封装在一个帧中。<br>　　6、MTU网络最大传送单元：不同类型的物理网对一个物理帧可传送的数据量规定不同的上界。<br>　　7、IP数据包的重组：一是在通过一个网络重组；二是到达目的主机后重组。后者较好，它允许对每个数据包段独立地进行路由选择，且不要求路由器对分段存储或重组。<br>　　8、生存时间：IP数据包格式中设有一个生存时间字段，用来设置该数据包在联网中允许存在的时间，以秒为单位。如果其值为0，就把它从互联网上删除，并向源站点发回一个出错消息。<br>　　9、IP数据包选项：<br>　　IP数据包选项字段主要是用于网络测试或调试。包括：记录路由选项、源路由选项、时间戳选项等。<br>　　路由和时间戳选项提供了一种监视或控制互联网路由器路由数据包的方法。</div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5" class="lemma-anchor "></a>
+<a name="分类" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>分类</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="5" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="5_1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_1" class="lemma-anchor "></a>
+<a name="网络号" class="lemma-anchor "></a>
+<a name="5-1" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>网络号</h3>
+</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/a8014c086e061d9551a3ba1b76f40ad162d9ca28?fr=lemma&amp;ct=single" target="_blank" title="ip分类编址" style="width:220px;height:112px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/a8014c086e061d9551a3ba1b76f40ad162d9ca28.jpg" alt="ip分类编址" style="width:220px;height:112px;">
+</a>
+<span class="description">
+ip分类编址
+</span>
+</div>用于识别<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>所在的网络；</div><div class="anchor-list">
+<a name="5_2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_2" class="lemma-anchor "></a>
+<a name="主机号" class="lemma-anchor "></a>
+<a name="5-2" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>主机号</h3>
+</div>
+<div class="para" label-module="para">用于识别该网络中的主机。</div>
+<div class="para" label-module="para">IP地址分为五类，A类保留给政府机构，B类分配给中等规模的公司，C类分配给任何需要的人，D类用于<a target="_blank" href="https://baike.baidu.com/item/%E7%BB%84%E6%92%AD">组播</a>，E类用于实验，各类可容纳的地址数目不同。</div>
+<div class="para" label-module="para">A、B、C三类IP地址的特征：当将IP地址写成<a target="_blank" href="https://baike.baidu.com/item/%E4%BA%8C%E8%BF%9B%E5%88%B6">二进制</a>形式时，A类地址的第一位总是0，B类地址的前两位总是10，C类地址的前三位总是110。</div><div class="anchor-list">
+<a name="5_3" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_3" class="lemma-anchor "></a>
+<a name="A类地址" class="lemma-anchor "></a>
+<a name="5-3" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>A类地址</h3>
+</div>
+<div class="para" label-module="para">（1）A类地址第1字节为<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>，其它3个字节为<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA%E5%9C%B0%E5%9D%80">主机地址</a>。它的第1个字节的第一位固定为0.</div>
+<div class="para" label-module="para">（2）A类地址网络号范围：0.0.0.0---127.0.0.0 地址范围0.0.0.0到127.255.255.255</div>
+<div class="para" label-module="para">（3）A类地址中的<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>和保留地址：</div>
+<div class="para" label-module="para">① 10.X.X.X是<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>（所谓的<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>就是在互联网上不使用，而被用在<a target="_blank" href="https://baike.baidu.com/item/%E5%B1%80%E5%9F%9F%E7%BD%91%E7%BB%9C">局域网络</a>中的地址）。</div>
+<div class="para" label-module="para">范围（10.0.0.0---10.255.255.255）</div>
+<div class="para" label-module="para">② 127.X.X.X是保留地址，用做循环测试用的。</div><div class="anchor-list">
+<a name="5_4" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_4" class="lemma-anchor "></a>
+<a name="B类地址" class="lemma-anchor "></a>
+<a name="5-4" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>B类地址</h3>
+</div>
+<div class="para" label-module="para">（1） B类地址第1字节和第2字节为<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>，其它2个字节为主机地址。它的第1个字节的前两位固定为10.</div>
+<div class="para" label-module="para">（2） B类地址网络号范围：128.0.0.0---191.255.0.0。地址范围128.0.0.0到191.255.255.255。</div>
+<div class="para" label-module="para">（3） B类地址的<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>和保留地址</div>
+<div class="para" label-module="para">① 172.16.0.0---172.31.255.255是<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a></div>
+<div class="para" label-module="para">② 169.254.X.X是保留地址。如果你的IP地址是自动获取IP地址，而你在网络上又没有找到可用的DHCP服务器。就会得到其中一个IP。</div>
+<div class="para" label-module="para">191.255.255.255是<a target="_blank" href="https://baike.baidu.com/item/%E5%B9%BF%E6%92%AD%E5%9C%B0%E5%9D%80">广播地址</a>，不能分配。</div><div class="anchor-list">
+<a name="5_5" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_5" class="lemma-anchor "></a>
+<a name="C类地址" class="lemma-anchor "></a>
+<a name="5-5" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>C类地址</h3>
+</div>
+<div class="para" label-module="para">（1）C类地址第1字节、第2字节和第3个字节为<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>，第4个字节为主机地址。另外第1个字节的前三位固定为110。</div>
+<div class="para" label-module="para">（2）C类地址网络号范围：192.0.0.0---223.255.255.0。地址范围 192.0.0.0到223.255.255.255</div>
+<div class="para" label-module="para">（3） C类地址中的私有地址：</div>
+<div class="para" label-module="para">192.168.X.X是私有地址。（192.168.0.0---192.168.255.255)</div><div class="anchor-list">
+<a name="5_6" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_6" class="lemma-anchor "></a>
+<a name="D类地址" class="lemma-anchor "></a>
+<a name="5-6" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>D类地址</h3>
+</div>
+<div class="para" label-module="para">（1） D类地址不分<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80">网络地址</a>和<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA%E5%9C%B0%E5%9D%80">主机地址</a>，它的第1个字节的前四位固定为1110。</div>
+<div class="para" label-module="para">（2） D类地址范围：224.0.0.0---239.255.255.255</div><div class="anchor-list">
+<a name="5_7" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_7" class="lemma-anchor "></a>
+<a name="E类地址" class="lemma-anchor "></a>
+<a name="5-7" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>E类地址</h3>
+</div>
+<div class="para" label-module="para">（1） E类地址不分网络地址和主机地址，它的第1个字节的前五位固定为11110。</div>
+<div class="para" label-module="para">（2） E类地址范围：240.0.0.0---255.255.255.254</div>
+<div class="para" label-module="para">IP地址如果只使用ABCDE类来划分，会造成大量的浪费：一个有500台<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>的网络，无法使用C类地址。但如果使用一个B类地址，6万多个<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA%E5%9C%B0%E5%9D%80">主机地址</a>只有500个被使用，造成IP地址的大量浪费。因此，IP地址还支持<a target="_blank" href="https://baike.baidu.com/item/VLSM">VLSM</a>技术，可以在ABC类网络的基础上，进一步划分<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%90%E7%BD%91">子网</a>。</div>
+<div class="para" label-module="para">无类地址</div>
+<div class="para" label-module="para">除ABCDE以外的IP地址段划分方式，如：192.168.1.0 255.255.255.252等分成C段划分的地址</div><div class="anchor-list">
+<a name="5_8" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_8" class="lemma-anchor "></a>
+<a name="实体IP" class="lemma-anchor "></a>
+<a name="5-8" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>实体IP</h3>
+</div>
+<div class="para" label-module="para">在网络的世界里，为了要辨识每一部计算机的位置，因此有了计算机 IP 位址的定义。一个 IP 就好似一个门牌！例如，你要去<a target="_blank" href="https://baike.baidu.com/item/%E5%BE%AE%E8%BD%AF">微软</a>的网站的话，就要去『 64.4.11.42 』这个 IP 位置！这些可以直接在<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E9%99%85%E7%BD%91%E7%BB%9C">网际网络</a>上沟通的 IP 就被称为『实体 IP 』了。</div><div class="anchor-list">
+<a name="5_9" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_9" class="lemma-anchor "></a>
+<a name="虚拟IP" class="lemma-anchor "></a>
+<a name="5-9" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>虚拟IP</h3>
+</div>
+<div class="para" label-module="para">不过，众所皆知的，IP 位址仅为 xxx.xxx.xxx.xxx 的资料型态，其中， xxx 为 1-255 间的整数，由于计算机的成长速度太快，实体的 IP 已经有点不足了，好在早在规划 IP 时就已经预留了三个<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E6%AE%B5">网段</a>的 IP 做为内部网域的虚拟 IP 之用。这三个预留的 IP 分别为：</div>
+<div class="para" label-module="para">A级：10.0.0.1 - 10.255.255.254</div>
+<div class="para" label-module="para">B级：172.16.0.1 - 172.31.255.254</div>
+<div class="para" label-module="para">C级：192.168.0.1 - 192.168.255.254</div>
+<div class="para" label-module="para">上述中最常用的是192.168.0.0这一组。不过，由于是虚拟 IP ，所以当您使用这些地址的时候﹐当然是有所限制的，限制如下：</div>
+<div class="para" label-module="para">私有位址的路由信息不能对外散播</div>
+<div class="para" label-module="para">使用私有位址作为来源或目的地址的封包﹐不能透过Internet来转送</div>
+<div class="para" label-module="para">关于私有位址的参考纪录（如DNS）﹐只能限于内部网络使用</div>
+<div class="para" label-module="para">由于虚拟 IP 的计算机并不能直接连上 Internet ，因此需要特别的功能才能上网。不过，这给我们架设IP网络提供了很大的方便﹐比如﹕您的公司还没有连上Internet﹐但这不保证将来不会。使用公共IP的话﹐如果没经过注册﹐在以后真正连上网络的时候﹐就很可能和别人冲突了。也正如前面所分析的﹐到时候再重新规划IP的话﹐将是件非常头痛的问题。这时候﹐我们可以先利用私有位址来架设网络﹐等到真要连上<a target="_blank" href="https://baike.baidu.com/item/internet">internet</a>的时候﹐我们可以使用IP转换协定﹐如 NAT (Network Addresss Translation)等技术﹐配合新注册的IP就可以了。</div><div class="anchor-list">
+<a name="5_10" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_10" class="lemma-anchor "></a>
+<a name="掩码" class="lemma-anchor "></a>
+<a name="5-10" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>掩码</h3>
+</div>
+<div class="para" label-module="para">为了标识IP地址的网络部分和主机部分，要和地址掩码（Address Mask）结合，<a target="_blank" href="https://baike.baidu.com/item/%E6%8E%A9%E7%A0%81">掩码</a>跟IP地址一样也是32 bits，用点分十进制表示。IP地址网络部分对应的掩码部分全为“1”，主机部分对应的掩码全为“0”。</div>
+<div class="para" label-module="para">缺省状态下，如果没有进行子网划分，A类网络的<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81">子网掩码</a>为255.0.0.0，B类网络的子网掩码为255.255.0.0，C类网络的子网掩码为255.255.255.0。利用子网，网络地址的使用会更加有效。</div>
+<div class="para" label-module="para">有了子网掩码后，IP地址的标识方法如下：</div>
+<div class="para" label-module="para">例：192.168.1.1 255.255.255.0或者标识成192.168.1.1/24（掩码中“1”的个数）</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">固定IP与动态IP</div>
+</li></ul><div class="para" label-module="para">基本上，这两个东西是由于网络公司大量的成长下的产物，例如，你如果向中国电信申请一个商业型态的 ADSL 专线，那他会给你一个固定的实体 IP ，这个实体 IP 就被称为『固定 IP 』了。而若你是申请计时制的 ADSL ，那由于你的 IP 可能是由数十人共同使用，因此你每次重新开机上网时，你这部计算机的 IP 都不会是固定的！于是就被称为『动态 IP』或者是『浮动式IP』。基本上，这两个都是『实体IP』，只是网络公司用来分配给用户的方法不同而产生不同的名称而已！</div><div class="anchor-list">
+<a name="5_11" class="lemma-anchor para-title"></a>
+<a name="sub15816170_5_11" class="lemma-anchor "></a>
+<a name="特殊地址" class="lemma-anchor "></a>
+<a name="5-11" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>特殊地址</h3>
+</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">组播地址</div>
+</li></ul><div class="para" label-module="para">在IP地址空间中，有的IP地址不能为设备分配的，有的IP地址不能用在公网，有的IP地址只能在本机使用，诸如此类的特殊IP地址众多：<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/310f3b1f59f00697a78669bf?fr=lemma&amp;ct=single" target="_blank" title="组播地址" style="width:220px;height:195px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/48540923dd54564e5e620656b3de9c82d1584f5e.jpg" alt="组播地址" style="width:220px;height:195px;">
+</a>
+<span class="description">
+组播地址
+</span>
+</div>注意它和广播的区别。从224.0.0.0到239.255.255.255都是这样的地址。224.0.0.1特指所有主机， 224.0.0.2特指所有<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1%E5%99%A8">路由器</a>。这样的地址多用于一些特定的程序以及多媒体程序。如果你的主机开启了<a target="_blank" href="https://baike.baidu.com/item/IRDP">IRDP</a>（Internet<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1%E5%8F%91%E7%8E%B0%E5%8D%8F%E8%AE%AE">路由发现协议</a>，使用<a target="_blank" href="https://baike.baidu.com/item/%E7%BB%84%E6%92%AD">组播</a>功能）功能，那么你的主机路由表中应该有这样一条路由。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">169.254.x.x</div>
+</li></ul><div class="para" label-module="para">如果你的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>使用了DHCP功能自动获得一个IP地址，那么当你的<a target="_blank" href="https://baike.baidu.com/item/DHCP">DHCP</a>服务器发生故障，或响应时间太长而超出了一个系统规定的时间，Windows系统会为你分配这样一个地址。如果你发现你的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>IP地址是一个诸如此类的地址，很不幸，十有八九是你的网络不能正常运行了。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">受限广播地址</div>
+</li></ul><div class="para" label-module="para">广播通信是一对所有的通信方式。若一个IP地址的2进制数全为1，也就是255.255.255.255，则这个地址用于定义整个互联网。如果设备想使IP数据报被整个Internet所接收，就发送这个目的地址全为1的<a target="_blank" href="https://baike.baidu.com/item/%E5%B9%BF%E6%92%AD%E5%8C%85">广播包</a>，但这样会给整个互联网带来灾难性的负担。因此网络上的所有<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1%E5%99%A8">路由器</a>都阻止具有这种类型的分组被转发出去，使这样的广播仅限于本地网段。<div class="lemma-picture text-pic layout-right" style="width:250px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/b8798550d689023d85352488?fr=lemma&amp;ct=single" target="_blank" title="广播地址" style="width:250px;height:60px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/ac345982b2b7d0a295bfe6f2cbef76094b369a6f.jpg" alt="广播地址" style="width:250px;height:60px;">
+</a>
+<span class="description">
+广播地址
+</span>
+</div></div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">直接广播地址</div>
+</li></ul><div class="para" label-module="para">一个网络中的最后一个地址为<a target="_blank" href="https://baike.baidu.com/item/%E7%9B%B4%E6%8E%A5%E5%B9%BF%E6%92%AD%E5%9C%B0%E5%9D%80">直接广播地址</a>，也就是HostID全为1的地址。<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>使用这种地址把一个IP数据报发送到本地网段的所有设备上，<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1%E5%99%A8">路由器</a>会转发这种数据报到特定网络上的所有主机。</div>
+<div class="para" label-module="para">注意：这个地址在IP数据报中只能作为目的地址。另外，直接广播地址使一个<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E6%AE%B5">网段</a>中可分配给设备的地址数减少了1个。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">源IP地址</div>
+</li></ul><div class="para" label-module="para">若IP地址全为0，也就是0.0.0.0，则这个IP地址在IP数据报中只能用作源IP地址，这发生在当设备启动时但又不知道自己的IP地址情况下。在使用DHCP分配IP地址的网络环境中，这样的地址是很常见的。用户<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>为了获得一个可用的IP地址，就给DHCP服务器发送IP分组，并用这样的地址作为源地址，目的地址为255.255.255.255（因为主机这时还不知道DHCP服务器的IP地址）。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">NetID为0的</div>
+</li></ul><div class="para" label-module="para">当某个<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>向<a target="_blank" href="https://baike.baidu.com/item/%E5%90%8C%E4%B8%80%E7%BD%91%E6%AE%B5">同一网段</a>上的其他主机发送<a target="_blank" href="https://baike.baidu.com/item/%E6%8A%A5%E6%96%87">报文</a>时就可以使用这样的地址，分组也不会被<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1%E5%99%A8">路由器</a>转发。比如12.12.12.0/24这个网络中的一台<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>12.12.12.2/24在与同一网络中的另一台主机12.12.12.8/24通信时，目的地址可以是0.0.0.8。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">环回地址</div>
+</li></ul><div class="para" label-module="para">127<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E6%AE%B5">网段</a>的所有地址都称为环回地址，主要用来测试<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE">网络协议</a>是否工作正常的作用。比如使用ping<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" href="https://baike.baidu.com/pic/IP/224599/0/91ae68c607b019449c163d64?fr=lemma&amp;ct=single" target="_blank" title="环回地址" style="width:220px;height:159px;">
+<img class="" src="./IP（网络之间互连的协议）_百度百科_files/77094b36acaf2edd0393ab868d1001e93901937b.jpg" alt="环回地址" style="width:220px;height:159px;">
+</a>
+<span class="description">
+环回地址
+</span>
+</div>127.0.0.1就可以测试本地<a target="_blank" href="https://baike.baidu.com/item/TCP%2FIP%E5%8D%8F%E8%AE%AE">TCP/IP协议</a>是否已正确安装。另外一个用途是当客户进程用环回地址发送<a target="_blank" href="https://baike.baidu.com/item/%E6%8A%A5%E6%96%87">报文</a>给位于同一台机器上的服务器进程，比如在<a target="_blank" href="https://baike.baidu.com/item/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>里输入127.1.2.3，这样可以在排除网络<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1">路由</a>的情况下用来测试IIS是否正常启动。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">专用地址</div>
+</li></ul><div class="para" label-module="para">IP地址空间中，有一些IP地址被定义为专用地址，这样的地址不能为Internet网络的设备分配，只能在企业内部使用，因此也称为<a target="_blank" href="https://baike.baidu.com/item/%E7%A7%81%E6%9C%89%E5%9C%B0%E5%9D%80">私有地址</a>。若要在Internet网上使用这样的地址，必须使用<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2">网络地址转换</a>或者<a target="_blank" href="https://baike.baidu.com/item/%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84">端口映射</a>技术。</div>
+<div class="para" label-module="para">这些专有地址是：</div>
+<div class="para" label-module="para">10/8 地址范围：10.0.0.0到10.255.255.255 共有2的24次方个地址</div>
+<div class="para" label-module="para">172.16/12 地址范围：172.16.0.0至172.31.255.255 共有2的20次方个地址</div>
+<div class="para" label-module="para">192.168/16 地址范围：192.168.0.0至192.168.255.255 共有2的16次方个地址</div><div class="anchor-list">
+<a name="6" class="lemma-anchor para-title"></a>
+<a name="sub15816170_6" class="lemma-anchor "></a>
+<a name="V6简介" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>V6简介</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="6" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="6_1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_6_1" class="lemma-anchor "></a>
+<a name="综述" class="lemma-anchor "></a>
+<a name="6-1" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>综述</h3>
+</div>
+<div class="para" label-module="para">IPv6是"Internet Protocol Version 6"的缩写，也被称作下一代<a target="_blank" href="https://baike.baidu.com/item/%E4%BA%92%E8%81%94%E7%BD%91%E5%8D%8F%E8%AE%AE">互联网协议</a>，它是由IETF小组（<i>Internet工程任务组Internet Engineering Task Force</i>）设计的用来替代现行的IPv4（现行的IP）协议的一种新的IP协议。</div>
+<div class="para" label-module="para">我们知道，Internet的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%BB%E6%9C%BA">主机</a>都有一个唯一的IP地址，IP地址用一个32位<a target="_blank" href="https://baike.baidu.com/item/%E4%BA%8C%E8%BF%9B%E5%88%B6">二进制</a>的数表示一个主机号码，但32位地址资源有限，已经不能满足用户的需求了，因此Internet研究组织发布新的主机标识方法，即IPv6。在RFC1884中（RFC是Request for Comments Document的缩写。RFC实际上就是Internet有关服务的一些标准），规定的标准语法建议把IPv6地址的128位（16个<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%97%E8%8A%82">字节</a>）写成8个16位的<a target="_blank" href="https://baike.baidu.com/item/%E6%97%A0%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0">无符号整数</a>，每个整数用四个十六进制位表示，这些数之间用冒号（：）分开，例如：3ffe:3201:1401:1280:c8ff:fe4d:db39:1984</div><div class="anchor-list">
+<a name="6_2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_6_2" class="lemma-anchor "></a>
+<a name="特点" class="lemma-anchor "></a>
+<a name="6-2" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>特点</h3>
+</div>
+<div class="para" label-module="para"><b>扩展的</b><a target="_blank" href="https://baike.baidu.com/item/%E5%AF%BB%E5%9D%80">寻址</a>能力</div>
+<div class="para" label-module="para">IPv6将IP地址长度从32位扩展到128位，支持更多级别的地址层次、更多的可<a target="_blank" href="https://baike.baidu.com/item/%E5%AF%BB%E5%9D%80">寻址</a><a target="_blank" href="https://baike.baidu.com/item/%E8%8A%82%E7%82%B9">节点</a>数以及更简单的地址自动配置。通过在<a target="_blank" href="https://baike.baidu.com/item/%E7%BB%84%E6%92%AD%E5%9C%B0%E5%9D%80">组播地址</a>中增加一个“范围”域提高了多点传送<a target="_blank" href="https://baike.baidu.com/item/%E8%B7%AF%E7%94%B1">路由</a>的可扩展性。还定义了一种新的地址类型，称为“<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%BB%E6%84%8F%E6%92%AD">任意播</a>地址”，用于发送包给一组<a target="_blank" href="https://baike.baidu.com/item/%E8%8A%82%E7%82%B9">节点</a>中的任意一个；</div>
+<div class="para" label-module="para"><b>简化的报头格式</b></div>
+<div class="para" label-module="para">一些IPv4报头字段被删除或变为了可选项，以减少包处理中例行处理的消耗并限制IPv6报头消耗的<a target="_blank" href="https://baike.baidu.com/item/%E5%B8%A6%E5%AE%BD">带宽</a>；</div>
+<div class="para" label-module="para">对扩展报头和选项支持的改进</div>
+<div class="para" label-module="para">IP报头选项编码方式的改变可以提高转发效率，使得对选项长度的限制更宽松，且提供了将来引入新的选项的更大的灵活性；</div>
+<div class="para" label-module="para"><b>标识流的能力</b></div>
+<div class="para" label-module="para">增加了一种新的能力，使得标识属于发送方要求特别处理（如非默认的服务质量获“实时”服务）的特定通信“流”的包成为可能；</div>
+<div class="para" label-module="para"><b>认证和加密能力</b></div>
+<div class="para" label-module="para">IPv6中指定了支持认证、<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%AE%8C%E6%95%B4%E6%80%A7">数据完整性</a>和（可选的）数据机密性的扩展功能。</div><div class="anchor-list">
+<a name="7" class="lemma-anchor para-title"></a>
+<a name="sub15816170_7" class="lemma-anchor "></a>
+<a name="代理IP" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>代理IP</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="7" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">代理IP就是<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>，英文全称是Proxy Server，其功能就是代理网络用户去取得网络信息。形象的说：它是网络信息的中转站。在一般情况下，我们使用网络<a target="_blank" href="https://baike.baidu.com/item/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>直接去连接其他Internet站点取得网络信息时，须送出Request信号来得到回答，然后对方再把信息以bit方式传送回来。<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>是介于<a target="_blank" href="https://baike.baidu.com/item/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>和Web服务器之间的一台服务器，有了它之后，浏览器不是直接到Web服务器去取回网页而是向代理服务器发出请求，Request信号会先送到代理服务器，由代理服务器来取回浏览器所需要的信息并传送给你的浏览器。而且，大部分<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>都具有缓冲的功能，就好像一个大的Cache，它有很大的<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4">存储空间</a>，它不断将新取得数据储存到它本机的<a target="_blank" href="https://baike.baidu.com/item/%E5%AD%98%E5%82%A8%E5%99%A8">存储器</a>上，如果<a target="_blank" href="https://baike.baidu.com/item/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>所请求的数据在它本机的存储器上已经存在而且是最新的，那么它就不重新从Web服务器取数据，而直接将存储器上的<a target="_blank" href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%81">数据传送</a>给用户的浏览器，这样就能显著提高浏览速度和效率。更重要的是：Proxy Server（<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>）是Internet链路级<a target="_blank" href="https://baike.baidu.com/item/%E7%BD%91%E5%85%B3">网关</a>所提供的一种重要的安全功能，它的工作主要在<a target="_blank" href="https://baike.baidu.com/item/%E5%BC%80%E6%94%BE%E7%B3%BB%E7%BB%9F%E4%BA%92%E8%81%94">开放系统互联</a>(OSI）模型的对话层。主要的功能有：</div>
+<div class="para" label-module="para">1.突破自身IP访问限制，访问国外站点。教育网、169网等网络用户可以通过代理访问国外网站。</div>
+<div class="para" label-module="para">2.访问一些单位或团体内部资源，如某大学FTP（前提是该代理地址在该资源 的允许访问范围之内），使用教育网内地址段免费<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>，就可以用于对教育网开放的各类FTP下载上传，以及各类资料查询共享等服务。</div>
+<div class="para" label-module="para">3.突破中国电信的IP封锁：中国电信用户有很多网站是被限制访问的，这种限制是人为的，不同Serve对地址的封锁是不同的。所以不能访问时可以换一个国外的<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>试试。</div>
+<div class="para" label-module="para">4.提高访问速度：通常<a target="_blank" href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8">代理服务器</a>都设置一个较大的硬盘缓冲区，当有外界 的信息通过时，同时也将其保存到缓冲区中，当其他用户再访问相同的信息时， 则直接由缓冲区中取出信息，传给用户，以提高访问速度。</div>
+<div class="para" label-module="para">5.隐藏真实IP：上网者也可以通过这种方法隐藏自己的IP，免受攻击。</div><div class="anchor-list">
+<a name="8" class="lemma-anchor para-title"></a>
+<a name="sub15816170_8" class="lemma-anchor "></a>
+<a name="IP认证" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>IP认证</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="8" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">IP认证（Identity Preservation Certification）是对企业为保持产品的特定身份（如转基因身份）而建立的保证体系，按照特定标准进行审核、发证的过程。</div>
+<div class="para" label-module="para">IP体系是为防止在食品、饲料和种子生产中潜在的转基因成份的污染，从非转基因作物种子的播种到农产品的田间管理、收获、运输、出口、加工的整个生产供应链中通过严格的控制、检测、可追踪性信息的建立等措施，确保非转基因产品“身份”的纯粹性，并提高产品价值的生产和质量保证体系。</div>
+<div class="para" label-module="para">IP体系的特点是：</div>
+<div class="para" label-module="para">（1）可追踪性，为产品提供整个生产供应链的全方位信息</div>
+<div class="para" label-module="para">（2）严格的隔离，杜绝一切非受控材料的意外混入</div>
+<div class="para" label-module="para">（3）策略性的代表性取样和检测，验证产品的非转基因身份</div>
+<div class="para" label-module="para">（4）完善的体系文件和程序手册，产品质量保证的基础</div>
+<div class="para" label-module="para">（5）严格的内外控制，确保IP体系有效运行</div><div class="anchor-list">
+<a name="9" class="lemma-anchor para-title"></a>
+<a name="sub15816170_9" class="lemma-anchor "></a>
+<a name="寄存器" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>寄存器</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="9" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">单片机中的IP</div>
+</li></ul><div class="para" label-module="para">IP(Interrupt Priority)<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a><a target="_blank" href="https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AF%84%E5%AD%98%E5%99%A8">控制寄存器</a></div>
+<div class="para" label-module="para"><a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a><a target="_blank" href="https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AF%84%E5%AD%98%E5%99%A8">控制寄存器</a>IP是MCS-51的<a target="_blank" href="https://baike.baidu.com/item/%E7%89%B9%E6%AE%8A%E5%8A%9F%E8%83%BD%E5%AF%84%E5%AD%98%E5%99%A8">特殊功能寄存器</a>之一，各位状态均可以由用户通过程序设定，以便对各个中断优先级进行控制.</div>
+<div class="para" label-module="para">MCS-51单片机中<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a><a target="_blank" href="https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AF%84%E5%AD%98%E5%99%A8">控制寄存器</a>IP是用户对中断优先级控制服务程序，直到程序结束，执行最后一条返回指令返回主程序，然后再执行另一条的基础。若IP中某位设为1，相应的中断就设置为高优先级，否则就设置为低优先级。中断优先级<a target="_blank" href="https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AF%84%E5%AD%98%E5%99%A8">控制寄存器</a>的格式如下表：</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tbody><tr><td><div class="para" label-module="para">IP</div>
+</td><td><div class="para" label-module="para">D7</div>
+</td><td><div class="para" label-module="para">D6</div>
+</td><td><div class="para" label-module="para">D5[注]</div>
+</td><td><div class="para" label-module="para">D4</div>
+</td><td><div class="para" label-module="para">D3</div>
+</td><td><div class="para" label-module="para">D2</div>
+</td><td><div class="para" label-module="para">D1</div>
+</td><td><div class="para" label-module="para">D0</div>
+</td></tr><tr><td></td><td><div class="para" label-module="para">/</div>
+</td><td><div class="para" label-module="para">/</div>
+</td><td><div class="para" label-module="para">/</div>
+</td><td><div class="para" label-module="para">PS</div>
+</td><td><div class="para" label-module="para">PT1</div>
+</td><td><div class="para" label-module="para">PX1</div>
+</td><td><div class="para" label-module="para">PT0</div>
+</td><td><div class="para" label-module="para">PX0</div>
+</td></tr><tr><td><div class="para" label-module="para">位地址</div>
+</td><td><div class="para" label-module="para">/</div>
+</td><td><div class="para" label-module="para">/</div>
+</td><td><div class="para" label-module="para">/</div>
+</td><td><div class="para" label-module="para">BCH</div>
+</td><td><div class="para" label-module="para">BBH</div>
+</td><td><div class="para" label-module="para">BAH</div>
+</td><td><div class="para" label-module="para">B9H</div>
+</td><td><div class="para" label-module="para">B8H</div>
+</td></tr></tbody></table><div class="para" label-module="para">[注]有的单片机IP的D5是PT2，即为定时/计数器T2的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a>控制位.</div>
+<div class="para" label-module="para">IP有效控制位的含义：</div>
+<div class="para" label-module="para">PX0：<a target="_blank" href="https://baike.baidu.com/item/%E5%A4%96%E9%83%A8%E4%B8%AD%E6%96%AD">外部中断</a>0的中断优先级控制位，PX0=1，<a target="_blank" href="https://baike.baidu.com/item/%E5%A4%96%E9%83%A8%E4%B8%AD%E6%96%AD">外部中断</a>0被定义为高优先级中断；PX0=0，外部中断0定义为低优先级中断。</div>
+<div class="para" label-module="para">PT0：定时/计数器T0的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a>控制位，PT0=1，定时/计数器T0被定义为高优先级中断；PT0=0，定时/计数器T0定义为低优先级中断。</div>
+<div class="para" label-module="para">PX1：外部中断1的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a>控制位，PX1=1，外部中断1被定义为高优先级中断；PX1=0，外部中断1定义为低优先级中断。</div>
+<div class="para" label-module="para">PT1：定时/计数器T1的<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a>控制位，PT1=1，定时/计数器T1被定义为高优先级中断；PT1=0，定时/计数器T1定义为低优先级中断。</div>
+<div class="para" label-module="para">PS：<a target="_blank" href="https://baike.baidu.com/item/%E4%B8%B2%E8%A1%8C%E5%8F%A3">串行口</a><a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E6%96%AD%E4%BC%98%E5%85%88%E7%BA%A7">中断优先级</a>控制位，PS=1，串行口中断被定义为高优先级中断；PS=0，串行口中断定义为低优先级中断。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">IP寄存器</div>
+</li></ul><div class="para" label-module="para">Instruction Pointer 指令指针寄存器（即上文“概述”中所指）。用于指出当前正在执行的指令在CS指明的内存段中的<a target="_blank" href="https://baike.baidu.com/item/%E5%81%8F%E7%A7%BB%E9%87%8F">偏移量</a>。在32/64位的处理器中也被称为EIP/RIP。IP寄存器的值通常不能直接被访问，需要使用CALL,RET,RETF,IRET,JMP,J?? 等指令来改变。</div>
+<ul class="custom_dot para-list list-paddingleft-1"><li class="list-dot list-dot-paddingleft"><div class="para" label-module="para">指令指针寄存器</div>
+</li></ul><div class="para" label-module="para"><a target="_blank" href="https://baike.baidu.com/item/%E6%8C%87%E4%BB%A4%E6%8C%87%E9%92%88%E5%AF%84%E5%AD%98%E5%99%A8"><b>指令指针寄存器</b></a>（IP为instruction pointer的缩写），在8088或8086中，IP指指令指针寄存器，是CPU内部的一个寄存器，用来存储将要执行的下一条指令的<a target="_blank" href="https://baike.baidu.com/item/%E5%81%8F%E7%A7%BB%E9%87%8F">偏移量</a>，可以通过JMP指令改变其值，如：JMP AX为用AX值改变IP，从而实现段间跳转。</div><div class="anchor-list">
+<a name="10" class="lemma-anchor para-title"></a>
+<a name="sub15816170_10" class="lemma-anchor "></a>
+<a name="IP告罄" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>IP告罄</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="10" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">用以标注网络上每一台电脑主机身份的“IP地址”即将被分配用尽，也许“就在几个星期之内”，“互联网之父”<a target="_blank" href="https://baike.baidu.com/item/%E6%96%87%E9%A1%BF%C2%B7%E7%91%9F%E5%A4%AB">文顿·瑟夫</a>说。而来自中国互联网络信息中心（CNNIC）的消息也显示，中国对于下一代IP协议的升级改造计划，尚处于初级阶段。</div>
+<div class="para" label-module="para">中国互联网信息中心介绍说，在中国已经拥有的地址中，运营商手中仍掌握部分IPv4可以使用，根据业务的不同，有的地址可以支撑未来5至6年，有的则只能支撑1至2年。</div>
+<div class="para" label-module="para">为了应对危机，全球都在研究用下一代的互联网<a target="_blank" href="https://baike.baidu.com/item/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE">通信协议</a>IPv6来解决地址短缺问题。这种新的<a target="_blank" href="https://baike.baidu.com/item/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE">通信协议</a>技术可以支持众多的<a target="_blank" href="https://baike.baidu.com/item/%E7%BB%88%E7%AB%AF%E8%AE%BE%E5%A4%87">终端设备</a>，有比喻说，使用IPv6后地球上的每一粒沙子都可以拥有一个IP地址。<sup class="sup--normal" data-sup="1" data-ctrmap=":1,">
+[1]</sup><a class="sup-anchor" name="ref_[1]_15816170">&nbsp;</a>
+<a name="ref_1"></a></div><div class="anchor-list">
+<a name="11" class="lemma-anchor para-title"></a>
+<a name="sub15816170_11" class="lemma-anchor "></a>
+<a name="SOC中" class="lemma-anchor "></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">IP</span>SOC中</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="11" href="javascript:;" style="display: block;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="11_1" class="lemma-anchor para-title"></a>
+<a name="sub15816170_11_1" class="lemma-anchor "></a>
+<a name="IP定义" class="lemma-anchor "></a>
+<a name="11-1" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>IP定义</h3>
+</div>
+<div class="para" label-module="para">为满足TTM的要求SoC的设计要采用新的设计方法学来提高设计效率。多采用基于平台的设计方法，用已设计好的模块来集成，这些模块就称为IP(Intellectual Property）核。</div><div class="anchor-list">
+<a name="11_2" class="lemma-anchor para-title"></a>
+<a name="sub15816170_11_2" class="lemma-anchor "></a>
+<a name="IP分类" class="lemma-anchor "></a>
+<a name="11-2" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>IP分类</h3>
+</div>
+<div class="para" label-module="para">■<a target="_blank" href="https://baike.baidu.com/item/%E8%BD%AF%E6%A0%B8">软核</a>（Soft IP）软核以可综合的HDL的形式交付的，具有更灵活的优点和在性能（时序，面积，功耗）方面不可预测的缺点。<a target="_blank" href="https://baike.baidu.com/item/%E8%BD%AF%E6%A0%B8">软核</a>增加了<a target="_blank" href="https://baike.baidu.com/item/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83">知识产权</a>保护的风险，因为使用者需要RTL源代码。</div>
+<div class="para" label-module="para">■固核（Firm IP）</div>
+<div class="para" label-module="para">■硬核（Hard IP）已经进行了功耗，尺寸和性能的优化并映射到一个特定的工艺，通常以GDSII的形式交付。它们具有更可预测的优点，但是由于工艺相关性，因此有更少的灵活性和可移植性。因为版权保护并且不需要RTL代码，保护硬核的能力更好一些。</div><div class="anchor-list">
+<a name="11_3" class="lemma-anchor para-title"></a>
+<a name="sub15816170_11_3" class="lemma-anchor "></a>
+<a name="IP来源" class="lemma-anchor "></a>
+<a name="11-3" class="lemma-anchor "></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">IP</span>IP来源</h3>
+</div>
+<div class="para" label-module="para">■ 来源一：芯片设计公司的自身积累</div>
+<div class="para" label-module="para">■ 来源二：Foundry的积累</div>
+<div class="para" label-module="para">■ 来源三：专业IP公司</div>
+<div class="para" label-module="para">■ 来源四：EDA厂商</div>
+<div class="para" label-module="para">■ 来源五：设计服务公司<sup class="sup--normal" data-sup="1" data-ctrmap=":1,">
+[1]</sup><a class="sup-anchor" name="ref_[1]_15816170">&nbsp;</a>
+<a name="ref_1"></a></div>
+<div class="anchor-list">
+<a name="a" class="lemma-anchor a"></a>
+</div><div class="album-list">
+<div class="header">
+<span class="title">词条图册</span>
+<a class="more-link" href="https://baike.baidu.com/pic/IP/224599?fr=lemma" target="_blank" nslog-type="10000204">更多图册<em></em></a>
+</div>
+<div class="scroller">
+<div class="list">
+</div>
+</div>
+<div class="footer">
+</div>
+</div>
+<div class="tashuo-bottom" id="tashuo_bottom">
+<div class="tashuo-bottom-title-essence">
+<img src="./IP（网络之间互连的协议）_百度百科_files/ta-logo-blue_6da9967.png" alt="">
+<span>解读词条背后的知识</span>
+<a href="https://baike.baidu.com/tashuo/topic?topicId=71260de10c7244fc91d31330&amp;fromLemmaModule=pcBottom" class="tashuo-more" target="_blank">查看全部<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-right"></em></a>
+</div>
+<div class="tashuo-multiple">
+<div class="tashuo-wrapper">
+<div class="tashuo-view">
+<ul class="tashuo-slider maqueeCanvas" style="width:1968px">
+<li class="slider-item">
+<ul class="tashuo-list">
+<li class="tashuo-item J-item" data-tashuoid="d49633ff22cfb896d1354e05">
+<div class="tashuo-author">
+<a href="https://baike.baidu.com/usercenter/userpage?uk=ee839597&amp;authorId=fbc778d5b27e081876e1a527&amp;from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="./IP（网络之间互连的协议）_百度百科_files/1c950a7b02087bf446f8ac1efbd3572c11dfcf35.jpg"></span></div>
+<div class="ta-author-slogan-area">
+<strong>同相</strong>
+<span>文娱产业研究者、影视观察者</span>
+</div>
+<i></i></a>
+</div>
+<a href="https://baike.baidu.com/tashuo/browse/content?id=d49633ff22cfb896d1354e05&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="./IP（网络之间互连的协议）_百度百科_files/060828381f30e9240625e62342086e061d95f71b.jpg" data-width="" data-height="" class="cover-img" style="width: 100%; margin-top: -54.5812px;">
+<div class="overlay"><img src="./IP（网络之间互连的协议）_百度百科_files/overlay_1ccc6d9.png"></div>
+<p class="title">
+后“猫爪杯”时代，文娱产业“猫IP”的下半场要变天？
+</p></a>
+<p class="abstract">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=d49633ff22cfb896d1354e05&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" target="_blank">
+猫爪杯的“圣杯之战”，不仅仅提升了该产品的溢价空间，更是猫类IP集体价值的体现，也是“萌宠经济”转型升级的风口。</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2019-03-11</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">42</strong></span>
+</div>
+</li>
+<li class="tashuo-item J-item" data-tashuoid="0c49bf38f5d5401ceb204428">
+<div class="tashuo-author">
+<a href="https://baike.baidu.com/usercenter/userpage?uk=7dfa0c4a&amp;authorId=dfe1324094765d68bfb97f26&amp;from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="./IP（网络之间互连的协议）_百度百科_files/78310a55b319ebc4a8cb960f8a26cffc1f1716f0.jpg"></span></div>
+<div class="ta-author-slogan-area">
+<strong>烹小鲜联盟</strong>
+<span>娱乐自媒体联盟</span>
+</div>
+<i></i></a>
+</div>
+<div class="no-cover">
+<p class="title">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=0c49bf38f5d5401ceb204428&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" target="_blank">
+感觉IP被掏空？原创如何逆袭？
+</a>
+</p>
+<p class="abstract">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=0c49bf38f5d5401ceb204428&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" target="_blank">
+2015年才被冠以“IP元年”之称，现在全行业就已经进入“IP被掏空”的状态。资本大量涌入，平台方及编剧、演员、导演等上下游纷纷注册公司，把“跨界”玩得风起云涌。网络文学排行榜上的作品几乎被一扫而空，诸多影视公司已经将眼光投向未来，向网文大神们开始预约和定制作品。</a>
+</p>
+</div>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2016-10-05</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">25</strong></span>
+</div>
+</li>
+<li class="tashuo-item J-item" data-tashuoid="702600887d017b03991d3a37">
+<div class="tashuo-author">
+<a href="https://baike.baidu.com/usercenter/userpage?uk=7dfa0c4a&amp;authorId=dfe1324094765d68bfb97f26&amp;from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="./IP（网络之间互连的协议）_百度百科_files/78310a55b319ebc4a8cb960f8a26cffc1f1716f0.jpg"></span></div>
+<div class="ta-author-slogan-area">
+<strong>烹小鲜联盟</strong>
+<span>娱乐自媒体联盟</span>
+</div>
+<i></i></a>
+</div>
+<a href="https://baike.baidu.com/tashuo/browse/content?id=702600887d017b03991d3a37&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="./IP（网络之间互连的协议）_百度百科_files/8694a4c27d1ed21b0b12dd1da56eddc450da3f6a.jpg" data-width="" data-height="" class="cover-img" style="width: 100%; margin-top: -0.75px;">
+<div class="overlay"><img src="./IP（网络之间互连的协议）_百度百科_files/overlay_1ccc6d9.png"></div>
+<p class="title">
+东京都没IP热， 潘金莲狂潮就这么来了！
+</p></a>
+<p class="abstract">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=702600887d017b03991d3a37&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" target="_blank">
+
+如今的社会，你还没有听过IP，你就out了，现在随便走进一家咖啡馆，总会听见身边的人口若悬河，嘴里不谈点IP等专业用语，都不好意思点杯拿铁~有人可能说啦，我知道，不就是IP地址么~相信知道正确答案的扒友都想拿刘梓晨扔过去。那么究竟如今的网络热词“IP”究竟是何方神圣？IP...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2016-10-05</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">17</strong></span>
+</div>
+</li>
+<li class="tashuo-item J-item" data-tashuoid="242a1308b797ecde401c4594">
+<div class="tashuo-author">
+<a href="https://baike.baidu.com/usercenter/userpage?uk=7dfa0c4a&amp;authorId=dfe1324094765d68bfb97f26&amp;from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="./IP（网络之间互连的协议）_百度百科_files/78310a55b319ebc4a8cb960f8a26cffc1f1716f0.jpg"></span></div>
+<div class="ta-author-slogan-area">
+<strong>烹小鲜联盟</strong>
+<span>娱乐自媒体联盟</span>
+</div>
+<i></i></a>
+</div>
+<a href="https://baike.baidu.com/tashuo/browse/content?id=242a1308b797ecde401c4594&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="./IP（网络之间互连的协议）_百度百科_files/c8177f3e6709c93d58d6b05c943df8dcd1005470.jpg" data-width="" data-height="" class="cover-img" style="width: 100%; margin-top: -0.75px;">
+<div class="overlay"><img src="./IP（网络之间互连的协议）_百度百科_files/overlay_1ccc6d9.png"></div>
+<p class="title">
+IP已死，请让影视回归艺术本身
+</p></a>
+<p class="abstract">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=242a1308b797ecde401c4594&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" target="_blank">
+这五六年，移动互联网风起云涌，新事物、新模式层出不穷，每一年都是许多“元年”叠加在一起的年头。每次元年的到来都让人热血沸腾，好像美丽世界触手可及。而这个速生速死的时代吊诡之处在于，前脚刚刚宣称元年来了，后脚立马就被各种打脸，元年迅速走了。以网络文学、互联网思维为标签的影视I...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2017-12-08</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">11</strong></span>
+</div>
+</li>
+</ul>
+</li>
+<li class="slider-item">
+<ul class="tashuo-list">
+<li class="tashuo-item J-item" data-tashuoid="51917f4179e0fa5470672f83">
+<div class="tashuo-author">
+<a href="https://baike.baidu.com/usercenter/userpage?uk=3534ef0c&amp;authorId=e0a309bf53f2097890c7b826&amp;from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="./IP（网络之间互连的协议）_百度百科_files/a9d3fd1f4134970a835fd3f699cad1c8a7865d3f.jpg"></span></div>
+<div class="ta-author-slogan-area">
+<strong>张书乐</strong>
+<span>TMT名博，人民网、人民邮电报专栏作者</span>
+</div>
+<i></i></a>
+</div>
+<a href="https://baike.baidu.com/tashuo/browse/content?id=51917f4179e0fa5470672f83&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" class="cover" target="_blank">
+<img src="./IP（网络之间互连的协议）_百度百科_files/32fa828ba61ea8d3be77270f9e0a304e251f5867.jpg" data-width="" data-height="" class="cover-img" style="width: 100%; margin-top: -4.125px;">
+<div class="overlay"><img src="./IP（网络之间互连的协议）_百度百科_files/overlay_1ccc6d9.png"></div>
+<p class="title">
+手游IP乱战或将终结 IP矩阵时代即将到来
+</p></a>
+<p class="abstract">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=51917f4179e0fa5470672f83&amp;lemmaId=224599&amp;fromLemmaModule=pcBottom" target="_blank">
+手游IP有多重途径可以选择，一个是外向型，即更广泛的开发衍伸产品，比如影视剧、周边玩偶乃至主题公园，但这条路鲜有成功者，另一条路则是内拓型，即在IP中挖精华，在游戏里挖玩法，开游戏的荒。一个做手游的朋友曾和我调侃2014年的手游市场：在整个一年，你手上没有一两个高价买来的I...</a>
+</p>
+<div class="tashuo-operator">
+<span class="tashuo-publish-date">2016-12-15</span><span class="tashuo-like J-like " data-isvote="0"><i></i><strong class="J-number">8</strong></span>
+</div>
+</li>
+</ul>
+</li>
+</ul></div>
+<div class="tashuo-bottom-pager"><div class="module-pager"><span><em class="index">1</em>/2</span><a href="javascript:;" class="pTag prev disabled"><em class="cmn-icon cmn-icons cmn-icons_arrow-l-2"></em></a><a href="javascript:;" class="pTag next"><em class="cmn-icon cmn-icons cmn-icons_arrow-r-2"></em></a></div></div>
+</div>
+</div>
+</div>
+<dl class="lemma-reference collapse nslog-area log-set-param" data-nslog-type="2" log-set-param="ext_reference">
+<dt class="reference-title">参考资料</dt>
+<dd class="reference-list-wrap">
+<ul class="reference-list">
+<li class="reference-item reference-item--type3 " id="reference-[1]-15816170-wrap">
+<span class="index">1.</span>
+<a class="gotop anchor" name="refIndex_1_15816170" id="refIndex_1_15816170" title="向上跳转" href="https://baike.baidu.com/item/IP/224599?fr=aladdin#ref_[1]_15816170">&nbsp;&nbsp;</a>
+<span class="text"> C. Huitema; B. Carpenter (September 2004). Deprecating Site Local Addresses. Network Working Group. doi:10.17487/RFC3879. RFC 3879.</span>
+</li></ul>
+</dd>
+</dl>
+<div id="open-tag">
+<div class="open-tag-title">词条标签：</div>
+<dd id="open-tag-item">
+<span class="taglist">
+<a target="_blank" href="https://baike.baidu.com/wikitag/taglist?tagId=76607">科学百科信息科学分类</a>
+</span>
+，<span class="taglist">
+<a target="_blank" href="https://baike.baidu.com/wikitag/taglist?tagId=68041">中国通信学会</a>
+</span>
+，<span class="taglist">
+网站
+</span>
+，<span class="taglist">
+技术
+</span>
+</dd>
+<div class="open-tag-collapse" id="open-tag-collapse" style="display: none;"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="side-content">
+<div class="summary-pic">
+<a href="https://baike.baidu.com/pic/IP/224599/0/f636afc379310a55ab710934b74543a98326109c?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="./IP（网络之间互连的协议）_百度百科_files/f636afc379310a55ab710934b74543a98326109c.jpg">
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>IP图册</div>
+</a>
+</div>
+<div class="professional-con">
+<div class="professional-header">
+<div style="background-image: url(&#39;https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D50/sign=a88888073f7adab43dd01b438ad4bcdd/b3119313b07eca8035a902c8982397dda1448374.jpg&#39;)">
+<h2 title="科普中国">科普中国</h2>
+<p title="致力于权威的科学传播">致力于权威的科学传播</p>
+</div>
+</div>
+<div class="professional-content">
+<div class="professional-title professional-clearfix">
+<h3>本词条认证专家为</h3>
+</div>
+<div class="professional-list" id="professional_list" style="height: 61px;">
+<div class="professional-list-slider J-slider" style="width: 242px; position: absolute;">
+<ul>
+<li class="professional-clearfix">
+<div class="pro-line"></div>
+<div class="pro-content">
+<div class="pro-content-title professional-clearfix">
+<h4>孔祥杰</h4>
+<span>副教授</span><i>审核</i></div>
+<p title="大连理工大学软件学院">大连理工大学软件学院</p>
+</div>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="tashuo-right" id="tashuo_right" style="display: block;">
+<div class="tashuo-right-content-essence">
+<div class="J-items"><div class="tashuo-right-title-essence" style="cursor:pointer">
+<a href="https://baike.baidu.com/tashuo/topic?topicId=71260de10c7244fc91d31330&amp;fromLemmaModule=pcRight" class="tashuo-more" target="_blank">
+<img src="./IP（网络之间互连的协议）_百度百科_files/ta-logo-blue_6da9967(1).png" alt="">
+<span>解读词条背后的知识</span>
+</a>
+</div>
+<div class="slides">
+<div class="viewport">
+<ul style="position: absolute; width: 540px; height: 270px; left: 0px;"><li class="wgt_carousel_aniUnit" style="float: left;">
+<div class="tashuo-item J-item" data-tashuoid="242a1308b797ecde401c4594">
+<div class="tashuo-item-author">
+<a href="https://baike.baidu.com/usercenter/userpage?uk=7dfa0c4a&amp;authorId=dfe1324094765d68bfb97f26&amp;from=lemma" target="_blank">
+<div class="ta-author-area"><span><img src="./IP（网络之间互连的协议）_百度百科_files/78310a55b319ebc4a8cb960f8a26cffc1f1716f0.jpg"></span></div>
+<div class="ta-author-slogan-area">
+<strong>烹小鲜联盟</strong>
+<span>娱乐自媒体联盟</span>
+</div>
+<i></i></a>
+</div>
+<div class="tashuo-item-cover">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=242a1308b797ecde401c4594&amp;lemmaId=224599&amp;fromLemmaModule=pcRight" target="_blank">
+<img src="./IP（网络之间互连的协议）_百度百科_files/c8177f3e6709c93d58d6b05c943df8dcd1005470.jpg" data-width="undefined" data-height="undefined" class="cover-img" style="width: 100%; margin-top: -0.375px;">
+<div class="overlay"><img src="./IP（网络之间互连的协议）_百度百科_files/overlay_1ccc6d9(1).png"></div>
+<div class="tashuo-item-title">
+IP已死，请让影视回归艺术本身
+</div></a>
+</div>
+<div class="tashuo-item-abstract">
+<a href="https://baike.baidu.com/tashuo/browse/content?id=242a1308b797ecde401c4594&amp;lemmaId=224599&amp;fromLemmaModule=pcRight" target="_blank">
+这五六年，移动互联网风起云涌，新事物、新模式层出不穷，每一年都是许多“元年”叠加在一起的年头。每次元年的到来都让人热血沸腾，好像美丽世界触手可及。而这个速生速死的时代吊诡之处在于，前脚刚刚宣称元年来了，后脚立马就被各种打脸，元年迅速走了。以网络文学、互联网思维为标签的影视I...</a>
+</div>
+</div>
+</li></ul>
+</div>
+<div class="J-slides-btn slides_btn prev" data-skipto="prev"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-left"></em></div>
+<div class="J-slides-btn slides_btn next" data-skipto="next"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-right"></em></div>
+</div>
+</div>
+</div>
+</div>
+<div class="lemmaWgt-promotion-vbaike" style="display: block;">
+<div class="promotion_title">V百科<a href="https://baike.baidu.com/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl style="position: absolute; width: 536px; height: 152px; left: 0px;"><dd class="wgt_carousel_aniUnit" style="float: left;">
+<a href="https://baike.baidu.com/vbaike/%E5%9B%BE%E8%A7%A3%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA/26663" target="_blank" title="--" nslog-type="10002202" nslog-params="{&quot;adId&quot;:&quot;7088&quot;, &quot;adTitle&quot;:&quot;图解扫地机器人&quot;, &quot;adPos&quot;: 1}">
+<img src="./IP（网络之间互连的协议）_百度百科_files/8644ebf81a4c510f8f9c3e726e59252dd42aa57a.jpg">
+</a>
+</dd></dl>
+<div class="promotion_viewport_pager wgt_horPager">
+<span class="pTagBox">
+<a href="javascript:;" class="pTag prev" p-index="1"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-left"></em></a>
+<a href="javascript:;" class="pTag next" p-index="3"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-right"></em></a>
+</span>
+</div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaid="224599" data-lemmatitle="IP"></div>
+<div class="lemmaWgt-promotion-slide" style="display: block;">
+<div class="promotion_viewport">
+<dl style="position: absolute; width: 540px; height: 260px; left: 0px;"><dd class="wgt_carousel_aniUnit" style="float: left;">
+<a href="https://baike.baidu.com/item/%E7%99%BE%E7%A7%91%E5%91%A8%E8%A7%82%E5%BD%B1%E6%8C%87%E5%8D%97%E7%AC%AC139%E6%9C%9F" target="_blank" title="--" nslog-type="10002202" nslog-params="{&quot;adId&quot;:&quot;7076&quot;, &quot;adTitle&quot;:&quot;观影指南-dzp4.14&quot;, &quot;adPos&quot;: 2}">
+<img src="./IP（网络之间互连的协议）_百度百科_files/d01373f082025aaf3eeb03aaf5edab64024f1af1.jpg">
+</a>
+</dd></dl>
+<div class="promotion_viewport_pager wgt_horPager"><span class="pTagBox">
+<a href="javascript:;" class="pTag prev" p-index="1"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-left"></em></a><span><a href="javascript:;" class="dot pTag" p-index="1"><em class="cmn-icon cmn-icons cmn-icons_userbar-new"></em></a><a href="javascript:;" class="dot pTag cur"><em class="cmn-icon cmn-icons cmn-icons_userbar-new"></em></a><a href="javascript:;" class="dot pTag" p-index="3"><em class="cmn-icon cmn-icons cmn-icons_userbar-new"></em></a><a href="javascript:;" class="dot pTag" p-index="4"><em class="cmn-icon cmn-icons cmn-icons_userbar-new"></em></a></span><a href="javascript:;" class="pTag next" p-index="3"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_arrow-right"></em></a>
+</span></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><div id="side-auth">
+<div id="authEdit" class="side-box">
+<dl>
+<dt class="sidetitle">权威合作编辑</dt>
+<dd class="side-auth-content">
+<div class="side-auth-img">
+<a href="http://www.cast.org.cn/" target="_blank" class="nslog:7075" id="authOrgRightEditPic">
+<img style="width: 50px;" onload="this.style.width = &#39;50px&#39;;this.style.display=&#39;&#39;;" src="./IP（网络之间互连的协议）_百度百科_files/QQ图片20141121003618.jpg" alt="权威编辑" title="权威编辑">
+</a>
+</div>
+<div class="side-auth-info">
+<p class="auth-info-name">
+<a href="http://www.cast.org.cn/" nslog-type="7075" target="_blank" id="authOrgRightEdit">“科普中国”科学百科词条编写与应用工作项目</a>
+</p>
+<span id="authDetail">
+“科普中国”是为我国科普信息化建设塑造的全...
+</span>
+</div>
+<div class="clear"></div>
+</dd>
+<dd class="authVersion">
+<span style="">
+<a class="whatIs" align="absmiddle" href="javascript:void(0);"></a><a href="http://baike.bdimg.com/cms/static/cooperation/content.pdf" target="_blank" nslog-type="36" class="link-toggle" id="whatIsAuthEdit">什么是权威编辑</a>
+</span>
+<span class="divisionLine"></span>
+<a href="https://baike.baidu.com/history/IP/224599/133627568" class="nslog:37" target="_blank" id="authEditVersion">查看编辑版本</a>
+</dd>
+</dl>
+</div>
+<div id="authResource" class="side-box">
+<dl>
+<dt class="sidetitle">资源提供</dt>
+<dd class="side-auth-content">
+<div class="side-auth-img">
+<a href="http://www.china-cic.cn/" target="_blank" nslog-type="7080">
+<img style="width: 50px;" onload="this.style.width = &#39;50px&#39;;this.style.display=&#39;&#39;;" src="./IP（网络之间互连的协议）_百度百科_files/通信学会.png" alt="资源合作" title="资源合作">
+</a>
+</div>
+<div class="side-auth-info">
+<div class="auth-info-name">
+<a href="http://www.china-cic.cn/" class="nslog:7080" target="_blank">中国通信学会</a>
+</div>
+<p>中国通信学会是全国通信...</p>
+<p>提供资源类型：<span style="color: #555555;">内容</span></p>
+</div>
+</dd>
+<dd class="authVersion">
+<span>
+<a class="whatIs" align="absmiddle" href="javascript:void(0);"></a>
+<a href="http://baike.bdimg.com/cms/static/cooperation/content.pdf" target="_blank" nslog-type="3024" class="link-toggle">什么是资源合作</a>
+</span>
+</dd>
+</dl>
+</div>
+</div>
+<dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description ">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv">6998265</span>次</li>
+<li>编辑次数：242次<a href="https://baike.baidu.com/historylist/IP/224599" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>
+<span class="latest-title">最近更新：</span>
+<span class="latest-content">
+<a class="show-userCard" data-uid="1524853333" title="查看此用户资料" target="_blank" href="https://baike.baidu.com/usercenter/userpage?uname=%E5%BF%83%E8%B7%B3_1ng&amp;from=lemma" nslog-type="1022">心跳_1ng</a><span class="j-modified-time" style="">（2019-04-09）</span>
+</span>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility: hidden; bottom: 10px;">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">基本原理</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#1_1" class="title-link">
+<span class="text">
+<span class="title-index">1.1</span>
+<span class="title-link" nslog-type="10002802">网络互联</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#1_2" class="title-link">
+<span class="text">
+<span class="title-index">1.2</span>
+<span class="title-link" nslog-type="10002802">数据包</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">分片和重组</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#2_1" class="title-link">
+<span class="text">
+<span class="title-index">2.1</span>
+<span class="title-link" nslog-type="10002802">分片</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#2_2" class="title-link">
+<span class="text">
+<span class="title-index">2.2</span>
+<span class="title-link" nslog-type="10002802">IP地址</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">地址</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_1" class="title-link">
+<span class="text">
+<span class="title-index">3.1</span>
+<span class="title-link" nslog-type="10002802">公用地址</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_2" class="title-link">
+<span class="text">
+<span class="title-index">3.2</span>
+<span class="title-link" nslog-type="10002802">基本格式</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_3" class="title-link">
+<span class="text">
+<span class="title-index">3.3</span>
+<span class="title-link" nslog-type="10002802">地址分配</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#3_4" class="title-link">
+<span class="text">
+<span class="title-index">3.4</span>
+<span class="title-link" nslog-type="10002802">IP查询</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">IP协议</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="10002802">分类</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_1" class="title-link">
+<span class="text">
+<span class="title-index">5.1</span>
+<span class="title-link" nslog-type="10002802">网络号</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_2" class="title-link">
+<span class="text">
+<span class="title-index">5.2</span>
+<span class="title-link" nslog-type="10002802">主机号</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_3" class="title-link">
+<span class="text">
+<span class="title-index">5.3</span>
+<span class="title-link" nslog-type="10002802">A类地址</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_4" class="title-link">
+<span class="text">
+<span class="title-index">5.4</span>
+<span class="title-link" nslog-type="10002802">B类地址</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_5" class="title-link">
+<span class="text">
+<span class="title-index">5.5</span>
+<span class="title-link" nslog-type="10002802">C类地址</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_6" class="title-link">
+<span class="text">
+<span class="title-index">5.6</span>
+<span class="title-link" nslog-type="10002802">D类地址</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_7" class="title-link">
+<span class="text">
+<span class="title-index">5.7</span>
+<span class="title-link" nslog-type="10002802">E类地址</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_8" class="title-link">
+<span class="text">
+<span class="title-index">5.8</span>
+<span class="title-link" nslog-type="10002802">实体IP</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_9" class="title-link">
+<span class="text">
+<span class="title-index">5.9</span>
+<span class="title-link" nslog-type="10002802">虚拟IP</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_10" class="title-link">
+<span class="text">
+<span class="title-index">5.10</span>
+<span class="title-link" nslog-type="10002802">掩码</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#5_11" class="title-link">
+<span class="text">
+<span class="title-index">5.11</span>
+<span class="title-link" nslog-type="10002802">特殊地址</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#6" class="title-link">
+<span class="text">
+<span class="title-index">6</span>
+<span class="title-link" nslog-type="10002802">V6简介</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#6_1" class="title-link">
+<span class="text">
+<span class="title-index">6.1</span>
+<span class="title-link" nslog-type="10002802">综述</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#6_2" class="title-link">
+<span class="text">
+<span class="title-index">6.2</span>
+<span class="title-link" nslog-type="10002802">特点</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#7" class="title-link">
+<span class="text">
+<span class="title-index">7</span>
+<span class="title-link" nslog-type="10002802">代理IP</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#8" class="title-link">
+<span class="text">
+<span class="title-index">8</span>
+<span class="title-link" nslog-type="10002802">IP认证</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#9" class="title-link">
+<span class="text">
+<span class="title-index">9</span>
+<span class="title-link" nslog-type="10002802">寄存器</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#10" class="title-link">
+<span class="text">
+<span class="title-index">10</span>
+<span class="title-link" nslog-type="10002802">IP告罄</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11" class="title-link">
+<span class="text">
+<span class="title-index">11</span>
+<span class="title-link" nslog-type="10002802">SOC中</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11_1" class="title-link">
+<span class="text">
+<span class="title-index">11.1</span>
+<span class="title-link" nslog-type="10002802">IP定义</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11_2" class="title-link">
+<span class="text">
+<span class="title-index">11.2</span>
+<span class="title-link" nslog-type="10002802">IP分类</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="https://baike.baidu.com/item/IP/224599?fr=aladdin#11_3" class="title-link">
+<span class="text">
+<span class="title-index">11.3</span>
+<span class="title-link" nslog-type="10002802">IP来源</span>
+</span>
+</a>
+</dd>
+<a class="arrow" href="javascript:void(0);" style="top: 5px;"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);" nslog-type="10002803"></a>
+<a class="gotop-button" href="javascript:void(0);" nslog-type="10002804"></a>
+</div>
+</div>
+
+<div id="side_box_unionAd" class="unionAd side-box union" style="display: block;">
+<div class="union-content" id="cpro_u1997633"><iframe id="iframeu1997633_0" name="iframeu1997633_0" src="./IP（网络之间互连的协议）_百度百科_files/ocqm.html" width="250" height="250" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:250px;height:250px" allowtransparency="true"></iframe></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new" style="display: block;">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你关注</h6>
+<ul class="cmn-clearfix"><li><a href="https://www.baidu.com/s?wd=%C9%FA%BB%AF%CE%A3%BB%FA%D6%AE%B1%A9%BB%F7%BD%A9%CA%AC%CF%C2%D4%D8&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">生化危机之暴击僵尸下载</a></li>
+<li><a href="https://www.baidu.com/s?wd=adobe+flash+player+for+mac&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">adobe flash player for mac</a></li>
+<li><a href="https://www.baidu.com/s?wd=ip%B5%D8%D6%B7%CF%C2%D4%D8&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=-1&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">ip地址下载</a></li>
+<li><a href="https://www.baidu.com/s?wd=%D0%C7%B0%CD%BF%CB%BC%D3%C3%CB%B7%D1%B6%E0%C9%D9&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=-1&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">星巴克加盟费多少</a></li>
+<li><a href="https://www.baidu.com/s?wd=%BD%A8%D0%D0%BD%F1%CC%EC%BD%F0%CC%F5%BC%DB%B8%F1&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">建行今天金条价格</a></li>
+<li><a href="https://www.baidu.com/s?wd=%C9%FA%BB%AF%CE%A3%BB%FA5%B1%DA%D6%BD%CF%C2%D4%D8&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">生化危机5壁纸下载</a></li>
+<li><a href="https://www.baidu.com/s?wd=15%B4%E7mac%B5%E7%C4%D4%B0%FC&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">15寸mac电脑包</a></li>
+<li><a href="https://www.baidu.com/s?wd=mac%B0%E6mt4&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">mac版mt4</a></li>
+<li><a href="https://www.baidu.com/s?wd=mac%CA%D3%C6%B5%BB%E1%D2%E9%C8%ED%BC%FE&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">mac视频会议软件</a></li>
+<li><a href="https://www.baidu.com/s?wd=%C3%C0%B9%FAmac%C6%F8%B6%AF%B7%A7&amp;tn=SE_baikepcxf02_fcetbk02&amp;lqsource=2&amp;dmaseid=dmaseid202&amp;qid=338f0f4c76172b42" target="_blank">美国mac气动阀</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="https://baike.baidu.com/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="https://baike.baidu.com/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="https://baike.baidu.com/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E6%9C%AC%E4%BA%BA%E8%AF%8D%E6%9D%A1%E7%BC%96%E8%BE%91%E6%9C%8D%E5%8A%A1/22442459?bk_fr=pcFooter">本人编辑</a><img src="./IP（网络之间互连的协议）_百度百科_files/new-icon_a64774d.png" class="new-icon" alt="new"></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a id="J-bk-feedback-query" data-lemma="IP" href="javascript:void(0);" nslog-type="10070001">内容质疑</a></div>
+<div><a target="_blank" href="http://zhiqiu.baidu.com/baike/passport/html/baikechat.html" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&amp;fr=bks0000&amp;kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">官方贴吧</a></div>
+<div><a id="J-bk-feedback-main" href="javascript:void(0);">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://help.baidu.com/newadd?word=IP&amp;&amp;submit_link=https%3A%2F%2Fbaike.baidu.com%2Fitem%2FIP%2F224599%3Ffr%3Daladdin&amp;prod_id=10&amp;category=1">举报不良信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?word=IP&amp;&amp;submit_link=https%3A%2F%2Fbaike.baidu.com%2Fitem%2FIP%2F224599%3Ffr%3Daladdin&amp;prod_id=10&amp;category=2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?word=IP&amp;&amp;submit_link=https%3A%2F%2Fbaike.baidu.com%2Fitem%2FIP%2F224599%3Ffr%3Daladdin&amp;prod_id=10&amp;category=6">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?word=IP&amp;&amp;submit_link=https%3A%2F%2Fbaike.baidu.com%2Fitem%2FIP%2F224599%3Ffr%3Daladdin&amp;prod_id=10&amp;category=5">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2019&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&amp;class=89&amp;id=1637" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_id=10&amp;class=690&amp;id=1001779" target="_blank">隐私政策</a>&nbsp;|&nbsp;<a href="https://baike.baidu.com/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="./IP（网络之间互连的协议）_百度百科_files/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+
+<div class="lemmaWgt-searchHeader" style="display: none; opacity: 0;">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="https://baike.baidu.com/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="https://baike.baidu.com/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="IP"><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="https://baike.baidu.com/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden">
+<input name="pn" type="hidden" value="0">
+<input name="rn" type="hidden" value="0">
+<input name="enc" type="hidden" value="utf8">
+</form>
+<ul id="suggestion" class="suggestion" style="display: none;">
+<div class="sug"></div>
+<li class="extra">
+<span id="clear" style="margin-right:8px;">清除历史记录</span><span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-discussion button j-discussion-link" href="https://baike.baidu.com/planet/talk?lemmaId=224599" target="_blank" nslog-type="90000103"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_discussion-hollow"></em>讨论&nbsp;<span class="num">66</span></a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone" href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat" href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq" href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+
+<script type="text/javascript" src="./IP（网络之间互连的协议）_百度百科_files/mod_4302fe0.js.下载"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_18f1b51.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_459492a.js","pkg":"wiki-lemma:p5"},"wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip_3a154ae.js","deps":["wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/lib/jsmart/jsmart.js","wiki-common:widget/component/nslog/nslog.js"]}},"pkg":{"wiki-lemma:p5":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_853c311.js"}}});</script><script type="text/javascript" src="./IP（网络之间互连的协议）_百度百科_files/wiki-common-base_d934ad9.js.下载"></script>
+<script type="text/javascript" src="./IP（网络之间互连的协议）_百度百科_files/wiki-lemma_dd270db.js.下载"></script>
+<script type="text/javascript" src="./IP（网络之间互连的协议）_百度百科_files/zhixin_58e6342.js.下载"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery'),
+    userbar = require('wiki-common:widget/component/userbar-n/userbar-n');
+    
+  userbar.buildUserbar($('#j-wgt-userbar'), null);
+}();
+!function(){  require('wiki-common:widget/component/headTabBar/headTabBar');
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var cookie = require('wiki-common:widget/util/cookie');
+    if (!cookie.get('baikedeclare')) {
+        $('#J-declare-wrap').css('display', 'block');
+    }
+    $('#J-declare-close').on('click', function () {
+        // 用户关闭后，不再显示，这里暂设过期时间为1年
+        cookie.set('baikedeclare', 'showed', {
+            expires: 365 * 60 * 60 * 24 * 1000,
+            path: '/'
+        });
+        $('#J-declare-wrap').css('display', 'none');
+    });
+}();
+!function(){var $ = require('wiki-common:widget/lib/jquery/jquery');
+
+var timer = '';
+
+$('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+    $('.wgt-navbar').addClass('wgt-navbar-hover');
+  }, 300);
+}).on('mouseleave', function() {
+  clearTimeout(timer);
+  $('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+  clearTimeout(timer);
+  $('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){        require('wiki-lemma:widget/lemma_content/mainContent/polysemantList/polysemantList')('IP');
+    }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+        // 展现策略
+        rightCheck.editView('224599', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog');
+	require.async(["wiki-lemma:widget/basicElement/collect/collect"],function(collect){
+		collect({
+            newLemmaId:"224599",
+			lemmaId:"8370",
+			subLemmaId:"15816170"
+		});
+	});
+}();
+!function(){    require.async(["wiki-lemma:widget/basicElement/topShare/topShare"],function(topShare){
+        topShare({
+            newLemmaId: '224599'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+    var nsLog = require('wiki-common:widget/component/nslog/nslog');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog");
+    
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                nsLog('10003104');              
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        } else {
+            if ('1') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                nsLog('10003104');  
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        }
+    });
+
+    var canDiscussion = $('.j-discussion-link').length > 0 ? true : false;
+    if (canDiscussion) {
+        // 锁定跳转
+        $('body').on('click', '.lock-lemma', function () {
+            var me = $(this);
+            var content = '<div style="text-align: left;width: 528px">'
+                + '<h2 style="font-size: 20px;color: #333;line-height: 26px;margin-bottom: 20px;">' 
+                + '词条锁定，暂时无法编辑</h2>' 
+                + '<p style="font-size: 16px;color: #333;line-height: 26px;">'
+                + '亲爱的用户，词条存在争议或词条内容较完善都可能被锁定（'
+                + '<a href="/view/10812319.htm" target="_blank">查看详情</a>）。</p>'
+                + '<p style="font-size: 16px;color: #333;line-height: 26px;">'
+                + '如果你认为锁定词条内容存在问题需要修改，可进行以下操作：</p></div>';
+            new Dialog({
+                title: '编辑提示',
+                content: content,
+                btns: [
+                    {
+                        text: '<span style="font-size: 14px">参与词条讨论，反馈词条问题</span>',
+                        key: 'discussion'
+                    }
+                ],
+                onBtnClick: function(btnKey){
+                    if (btnKey === 'discussion') {
+                        window.location.href = '/planet/talk?lemmaId=224599&category=1';
+                    }
+                }
+            }).show();
+        });
+        // 获取讨论数
+        $.get('/discussion/api/getdiscussioncount?lemmaId=224599', function (res) {
+            if (res && res.errno === 0 && res.data.discussionCount > 0) {
+                var numText = res.data.discussionCount <= 99 ? res.data.discussionCount : '99+';
+                $('.j-discussion-link .num').text(numText).show();
+            }
+        });
+        $('.lemmaWgt-lemmaTitle .j-discussion-link').on('click', function () {
+            $(this).find('.num').remove();
+        });
+        // 讨论按钮展现量
+        nsLog(90000101, window.location.href, {
+            lemmaid: 224599
+        });
+    }
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require('wiki-common:widget/component/nslog/nslog');
+    nslog(10002701);
+    $('.lemmaWgt-lemmaCatalog a').on('click', function () {
+           nslog(10002702);
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('224599', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){	require.async(["wiki-common:widget/lib/jquery/jquery","wiki-lemma:widget/lemma_content/mainContent/albumList/albumList","wiki-common:widget/component/nslog/nslog"],function($,AlbumList,nslog){
+		var list=new AlbumList({
+			newLemmaId:"224599",
+			lemmaTitle:"IP",
+			lemmaId:"8370",
+			subLemmaId:"15816170",
+			data:[{"coverpic":"f636afc379310a55ab710934b74543a98326109c","width":1024,"height":860,"desc":"\u8bcd\u6761\u56fe\u7247","total":9,"coverurl":"https:\/\/gss0.bdstatic.com\/94o3dSag_xI4khGkpoWK1HF6hhy\/baike\/s%3D235\/sign=8a2d3478d43f8794d7ff4f2de71a0ead\/f636afc379310a55ab710934b74543a98326109c.jpg"}]
+		});
+		!!window.ScriptLazyLoad && window.ScriptLazyLoad.regist({
+			dom:$('.album-list'),
+			loadFunc:function(){
+				list.load();
+				nslog(1258);
+			},
+			distance:500
+		});
+	});
+}();
+!function(){                    require.async(["wiki-common:widget/lib/jquery/jquery","wiki-lemma:widget/basicElement/modulePager/modulePager"],function($,Pager){
+                        var slideTo = function (index) {
+                            var scroller = $('.tashuo-view');
+                            scroller.stop().animate({scrollLeft: (index - 1) * 738}, 500);
+                        };
+                        var pager = new Pager({
+                            total:2,
+                            handleNext:function(index){
+                                slideTo(index);
+                            },
+                            handlePrev:function(index){
+                                slideTo(index);
+                            }
+                        });
+                        pager.appendTo($(".tashuo-bottom-pager"));
+                    });
+                }();
+!function(){    require.async(["wiki-lemma:widget/lemma_content/mainContent/tashuo/tashuo"],function(init){
+        init();
+    });
+}();
+!function(){		require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReference","wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip"],function(Reference,ReferenceTip){
+			new Reference({
+				subLemmaId:"15816170"
+			});
+			new ReferenceTip({
+				subLemmaId:"224599",
+				lemmaTitle:"IP",
+				reference:[{"type":"3","text":" C. Huitema; B. Carpenter (September 2004). Deprecating Site Local Addresses. Network Working Group. doi:10.17487\/RFC3879. RFC 3879.","index":1,"count":"1"}]
+			});
+		});
+	}();
+!function(){        require.async(["wiki-common:widget/lib/jquery/jquery"],function($){
+            function openTagToggle(node) {
+                if ($(node).hasClass("collapse")) {
+                    $(node).removeClass("collapse");
+                    $("#open-tag").css("height", '22px');
+                } else {
+                    $(node).addClass("collapse");
+                    $("#open-tag").css("height", $("#open-tag-item").css("height"));
+                }
+            }
+            if (parseInt($("#open-tag-item").css("height")) <= 30) {
+                $('#open-tag-collapse').hide();
+            }
+            $("#open-tag-collapse").on("click", function () {
+                openTagToggle($("#open-tag")[0]);
+            });
+        });
+    }();
+!function(){    var $ = require("wiki-common:widget/lib/jquery/jquery");
+    
+    var slider = {
+        init: function() {
+            this.control = $("#professional_control");
+            this.prev = this.control.find(".J-prev");
+            this.next = this.control.find(".J-next");
+            this.el = $("#professional_list");
+            this.view = this.el.find(".J-slider");
+            this.items = this.view.find("ul");
+            this.itemWidth = this.items.eq(0).innerWidth();
+            this.initStatus();
+            this.bindEvents();
+        },
+        initStatus: function() {
+            this.view.css({
+                width: this.items.length*this.itemWidth+"px",
+                position: "absolute"
+            });
+            this.setHeight(0);
+            if ( this.items.length < 2 ) return;
+            this.changeControllers(0);
+        },
+        bindEvents: function() {
+            var self = this, index = 0;
+            if ( this.items.length < 2 ) return;
+            this.next.on("click", function() {
+                if ( self.items.length-1 === index ) return;
+                index++;
+                self.setHeight(index);
+                self.goAni(index);
+                self.changeControllers(index);
+            });
+            this.prev.on("click", function() {
+                if ( index == 0 ) return;
+                index--;
+                self.setHeight(index);
+                self.goAni(index);
+                self.changeControllers(index);
+            });
+        },
+        setHeight: function(index) {
+            this.el.height( this.items.eq(index).innerHeight() );
+        },
+        goAni: function(index) {
+            this.view.animate({
+                left: index === 0 ? 0 : "-"+this.itemWidth*index+"px"
+            });
+        },
+        changeControllers: function(index) {
+            var disabledClass = "pro-control-disable";
+            this.prev.removeClass(disabledClass);
+            this.next.removeClass(disabledClass);
+            if ( index === 0 ) {
+                this.prev.addClass(disabledClass);
+            } else if ( index === this.items.length-1 ) {
+                this.next.addClass(disabledClass);
+            }
+        }
+    };
+    slider.init();
+}();
+!function(){    require.async(["wiki-lemma:widget/promotion/rightTashuo/rightTashuo"],function(init){
+        init({
+            lemmaId: 224599,
+            lemmaTitle: 'IP'
+        });
+    });
+}();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin')(
+            224599,
+            'IP'
+        );
+    }();
+!function(){    require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics"],function(init){
+        init({
+            newLemmaIdEnc:"e557d738a463178063140aca"
+        });
+    });
+}();
+!function(){	require.async(["wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog"],function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(["wiki-lemma:widget/promotion/fengchao/fengchao","wiki-lemma:widget/promotion/unionAd/unionAd"], function (init, unionAd) {
+            init({
+                newLemmaId: "224599",
+                lemmaTitle: "IP",
+                encodeLemmaTitle: "IP",
+                adManager: null
+            }, {
+                errFn: unionAd,
+                dom: $('#side_box_unionAd')
+            });
+        });
+    }();
+!function(){        require.async(['wiki-lemma:widget/promotion/guessLike/guessLike'], function (app) {
+            app.init({
+                lemmaTitle: 'IP',
+                adManager: null
+            });
+        });
+    }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+    var nsLog = require('wiki-common:widget/component/nslog/nslog');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('IP') + '/' + '224599';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=224599';
+    var canDiscussion = $('.j-discussion-link').length > 0 ? true : false;
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                nsLog('10003106');
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    nsLog('10003101');
+                    var content = '<div style="text-align: left;width: 490px">'
+                        + '<h2 style="font-size: 20px;color: #333;line-height: 26px;margin-top: 10px;margin-bottom: 20px;">' 
+                        + '对不起，你暂时没有权限编辑该词条</h2>' 
+                        + '<p style="font-size: 16px;color: #333;line-height: 26px;margin-bottom: 17px;">'
+                        + '亲爱的用户，该词条内容已较完善，需百科等级达到4级且通过率达85%才可编辑哦。</p>'
+                        + '<p style="font-size: 16px;color: #333">你当前百科等级为'
+                        + res.data.userInfo.level + '级、通过率'
+                        + res.data.userInfo.passRatio + '%，可进行以下操作：</p></div>';
+                    var btns = [
+                        {
+                            key: 'join',
+                            text: '<span style="font-size: 14px;text-align: center;vertical-align: middle;display: table-cell;">反馈词条问题，参与百科共建</span>'
+                        },
+                        {
+                            text: '<span style="font-size: 14px;text-align: center;vertical-align: middle;display: table-cell;">参加成长任务，提升编辑权限</span>',
+                            key: 'task'
+                        }
+                    ];
+                    if (canDiscussion) {
+                        btns = [
+                            {
+                                key: 'discussion',
+                                text: '<span style="font-size: 14px">参与词条讨论，反馈词条问题</span>'
+                            },
+                            {
+                                text: '<span style="font-size: 14px">参加成长任务，提升编辑权限</span>',
+                                key: 'task'
+                            }
+                        ];
+                    }
+                    new Dialog({
+                        title: '编辑提示',
+                        content: content,
+                        btns: btns,
+                        onBtnClick: function(btnKey){
+                            if (btnKey === 'discussion') {
+                                window.location.href = '/planet/talk?lemmaId=224599&category=1';
+                            } else if (btnKey === 'task') {
+                                window.location.href = '/usercenter#guide';
+                            } else if (btnKey === 'join') {
+                                window.location.href = '/feedback';
+                            }
+                        }
+                    }).show();
+                    break;
+                case 110008:
+                    nsLog('10003102');
+                    var content = '<div style="text-align: left;width: 490px">'
+                        + '<h2 style="font-size: 20px;color: #333;line-height: 26px;margin-bottom: 20px;margin-top: 10px;">' 
+                        + '对不起，你暂时没有权限编辑该词条</h2>' 
+                        + '<p style="font-size: 16px;color: #333;line-height: 26px;margin-bottom: 17px;">'
+                        + '亲爱的用户，该词条内容已较完善，需百科等级达到6级且通过率达85%才可编辑哦。</p>'
+                        + '<p style="font-size: 16px;color: #333">你当前百科等级为'
+                        + res.data.userInfo.level + '级、通过率'
+                        + res.data.userInfo.passRatio + '%，可进行以下操作：</p></div>';
+                    var btns = [
+                        {
+                            key: 'join',
+                            text: '<span style="font-size: 14px;text-align: center;vertical-align: middle;display: table-cell;">反馈词条问题，参与百科共建</span>'
+                        },
+                        {
+                            text: '<span style="font-size: 14px;text-align: center;vertical-align: middle;display: table-cell;">参加成长任务，提升编辑权限</span>',
+                            key: 'task'
+                        }
+                    ];
+                    if (canDiscussion) {
+                        btns = [
+                            {
+                                key: 'discussion',
+                                text: '<span style="font-size: 14px">参与词条讨论，反馈词条问题</span>'
+                            },
+                            {
+                                text: '<span style="font-size: 14px">参加成长任务，提升编辑权限</span>',
+                                key: 'task'
+                            }
+                        ];
+                    }
+                    new Dialog({
+                        title: '编辑提示',
+                        content: content,
+                        btns: btns,
+                        onBtnClick: function(btnKey){
+                            if (btnKey === 'discussion') {
+                                window.location.href = '/planet/talk?lemmaId=224599&category=1';
+                            } else if (btnKey === 'task') {
+                                window.location.href = '/usercenter#guide';
+                            } else if (btnKey === 'join') {
+                                window.location.href = '/feedback';
+                            }
+                        }
+                    }).show();
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+                case 110003:
+                    nsLog('10003103');
+                    Dialog.alert({
+                        title: '编辑提示',
+                        subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                    });
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        nsLog('10003100');
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('224599', 'IP', '网络之间互连的协议', '137043913', '', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){  require.async(["wiki-common:widget/lib/jquery/jquery","wiki-common:widget/component/footer/footer_feedback"], function($, feedback){
+    feedback({el: '#J-bk-feedback-main',
+      proData: {
+        "extend_feedback_channel": 33430
+      }
+    });
+    feedback({el: '#J-bk-feedback-query', config: {
+        appid: 215645,
+        productLine: 20184,
+        needContactWay: false,
+        issuePlaceholder: '亲爱的百度百科用户，请在此填写您的质疑内容及原因哦～'
+      },
+      proData: {
+        "kw": $('#J-bk-feedback-query').data('lemma')
+      }
+    });
+  });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-simple'));
+  }();
+!function(){    require.async(["wiki-lemma:widget/tools/searchHeader/toolButtons-n/toolButtons"],function(init){
+        init({
+            lemmaId:"8370",
+            subLemmaId:"15816170",
+            newLemmaId:"224599"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons-n/userInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      animation = require('wiki-common:widget/util/animation'),
+      nslog = require('wiki-common:widget/component/nslog/nslog'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010007);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl');
+    require.async(["wiki-lemma:widget/tools/newSideShare/taskSideShare"],function(taskShare){
+        taskShare.init({
+            title: 'IP',
+            desc: "\u4e92\u8054\u7f51\u534f\u8bae\u5730\u5740\uff08\u82f1\u8bed\uff1aInternet Protocol Address\uff0c\u53c8\u8bd1\u4e3a\u7f51\u9645\u534f\u8bae\u5730\u5740\uff09\uff0c\u7f29\u5199\u4e3aIP\u5730\u5740\uff08\u82f1\u8bed\uff1aIP Address\uff09\uff0c\u662f\u5206\u914d\u7ed9\u7528\u6237\u4e0a\u7f51\u4f7f\u7528\u7684\u7f51\u9645\u534f\u8bae\uff08\u82f1\u8bed\uff1aInternet Protocol, IP\uff09\u7684\u8bbe\u5907\u7684\u6570\u5b57\u6807\u7b7e\u3002\u5e38\u89c1\u7684IP\u5730\u5740\u5206\u4e3aIPv4\u4e0eIPv6\u4e24\u5927\u7c7b\uff0c\u4f46\u662f\u4e5f\u6709\u5176\u4ed6\u4e0d\u5e38\u7528\u7684\u5c0f\u5206\u7c7b\u3002",
+            pic: 'https:\/\/gss0.bdstatic.com\/94o3dSag_xI4khGkpoWK1HF6hhy\/baike\/w%3D268\/sign=169cf925ad6eddc426e7b3fd01dab6a2\/f636afc379310a55ab710934b74543a98326109c.jpg',
+            url: '',
+            qqPic: 'https:\/\/gss0.bdstatic.com\/94o3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D860%2C860%2C50\/sign=730b14d46b600c33f02c8d887c716939\/f636afc379310a55ab710934b74543a98326109c.jpg',
+            newLemmaId: '224599',
+            lemmaTitle: 'IP'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require("wiki-common:widget/component/nslog/nslog");
+    var testElem = require('wiki-common:widget/component/testElem/testElem');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader');
+
+    function requireAsync() {
+        require.async(['wiki-lemma:widget/tools/announcement/announcement']);
+    }
+
+    cmsModuleLoader('/api/wikiui/getlemmaconfig', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async(["wiki-lemma:widget/tools/lazyLoad/lazyLoad"], function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog','wiki-common:widget/lib/jquery/jquery'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "8370",
+            newLemmaId: "224599",
+            subLemmaId: "15816170",
+            lemmaTitle: "IP"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    var tags = {"3":{"tagId":76607,"tagName":"\u79d1\u5b66\u767e\u79d1\u4fe1\u606f\u79d1\u5b66\u5206\u7c7b"},"1":{"tagId":68041,"tagName":"\u4e2d\u56fd\u901a\u4fe1\u5b66\u4f1a"},"0":{"tagId":0,"tagName":"\u7f51\u7ad9"},"2":{"tagId":0,"tagName":"\u6280\u672f"}};
+    var tagsArray = [];
+    for (var key in tags) {
+        tagsArray.push(tags[key].tagName);
+    }
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 224599,
+            tags: tagsArray.join()
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                                        require.async(['wiki-lemma:widget/promotion/vbaike/vbaike'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                                    }
+                if (res.data[9]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                                    } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                                        require.async(['wiki-lemma:widget/promotion/topAd/topAd'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                                    }
+                if (res.data[4]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightAd/rightAd'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                                    }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010IP_\u767e\u5ea6\u767e\u79d1\u3011\u4e92\u8054\u7f51\u534f\u8bae\u5730\u5740\uff08\u82f1\u8bed\uff1aInternet Protocol Address\uff0c\u53c8\u8bd1\u4e3a\u7f51\u9645\u534f\u8bae\u5730\u5740\uff09\uff0c\u7f29\u5199\u4e3aIP\u5730\u5740\uff08\u82f1\u8bed\uff1aIP Address\uff09\uff0c\u662f\u5206\u914d\u7ed9\u7528\u6237\u4e0a\u7f51\u4f7f\u7528\u7684\u7f51\u9645\u534f\u8bae\uff08\u82f1\u8bed\uff1aInternet Protocol, IP\uff09\u7684\u8bbe\u5907\u7684\u6570\u5b57\u6807\u7b7e\u3002\u5e38\u89c1\u7684IP\u5730\u5740\u5206\u4e3aIPv4\u4e0eIPv6\u4e24\u5927\u7c7b\uff0c\u4f46\u662f\u4e5f\u6709\u5176\u4ed6\u4e0d\u5e38\u7528\u7684\u5c0f\u5206\u7c7b\u3002.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/item\/IP\/224599',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 6, 5];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://help.baidu.com/newadd?word=IP' + '&&submit_link=' + encodeURIComponent(window.location.href) + '&prod_id=10&category=' + map[i]);
+    });
+
+    // 为超出预设内容的表格添加table-responsive控制
+    $('.main-content').find('table').each(function(index) {
+        var $that = $(this);
+        if ($that.width() > 790) {
+            $that.wrap('<div class="table-responsive"></div>');
+        }
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink');
+    }();</script><div class="wgt_overlay" style="opacity: 0; position: fixed;"></div>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="./IP（网络之间互连的协议）_百度百科_files/baike.js.下载" defer=""></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+
+<div class="reference-tip J-referenceTip"><table><tbody><tr><td class="content"></td><td class="title" valign="middle">参考资料</td></tr></tbody></table><em class="triangle-bg"></em><em class="triangle-border"></em></div><div class="right-ad"><a class="rightAd-link" nslog-type="10002202" nslog-params="{&quot;adId&quot;:&quot;7082&quot;, &quot;adTitle&quot;: &quot;秒懂星课堂-曹格唱歌4.15&quot;, &quot;adPos&quot;: 4}" title="" href="https://baike.baidu.com/wikisecond/videoflow?lemmaId=708600&amp;secondId=561296" target="_blank"><img src="./IP（网络之间互连的协议）_百度百科_files/c9fcc3cec3fdfc032ebfd4d0da3f8794a5c22696.jpg" alt=""></a><a class="rightAd-close" href="javascript:;"></a></div></body></html>
