@@ -110,7 +110,7 @@ usb-creator==0.3.0
 virtualenv==15.2.0
 virtualenv-clone==0.3.0
 virtualenvwrapper==4.8.2
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 xdiagnose==3.8.4
 xkit==0.0.0
 XlsxWriter==0.7.3
